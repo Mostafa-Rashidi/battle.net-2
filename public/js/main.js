@@ -1,8 +1,8 @@
-import Header from "../module/header";
-import navbar from "../module/navbar";
-import slider1 from "../module/slider1";
-import product from "../module/product";
-import footer from "../module/footer";
+import Header from "../module/header.js";
+import navbar from "../module/navbar.js";
+import slider1 from "../module/slider1.js";
+import product from "../module/product.js";
+import footer from "../module/footer.js";
 Header();
 navbar();
 slider1();
