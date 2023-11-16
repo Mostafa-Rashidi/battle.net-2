@@ -1,0 +1,552 @@
+@include xl{
+  div.slider-1 {
+    width: 100%;
+    height: 500px;
+    margin-top: 10px;
+    margin-bottom: 1%;
+    background-color: $bgcBlack;
+    padding: 20px;
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: $bgcBlack;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 10px;
+      color: $colorWhite;
+    }
+    // .swiper-pagination{
+    //   // color: $colorWhite;
+    //   // background-color: $colorBlue;
+    // }
+    .swiper-slide img.lgxl {
+      display: block;
+      width: 100%;
+      height: 90%;
+      object-fit: cover;
+    }
+    div.swiper-slide {
+      > div.lgxl {
+        position: absolute;
+        left: 6%;
+        > img {
+          display: block;
+          width: 320px;
+          height: 160px;
+          object-fit: cover;
+        }
+        > h3 {
+          width: 320px;
+          padding: 3%;
+        }
+        > a {
+          display: block;
+          padding: 4%;
+          background-color: $colorBlue;
+          color: $colorWhite;
+          text-transform: capitalize;
+          font-weight: bold;
+          border-radius: 5px;
+          &:hover {
+            border: 1px solid white;
+          }
+        }
+      }
+    }
+  }
+  div.slider-2 {
+    width: 100%;
+    height: 500px;
+    margin-top: 10px;
+    margin-bottom: 1%;
+    background-color: $bgcBlack;
+    padding: 20px;
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      // flex-flow: row nowrap;
+      justify-content: center;
+      align-items: center;
+    }
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+@include lg{
+  div.slider-1 {
+    width: 100%;
+    height: 500px;
+    margin-top: 10px;
+    margin-bottom: 1%;
+    background-color: $bgcBlack;
+    padding: 20px;
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: $bgcBlack;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 10px;
+      color: $colorWhite;
+    }
+    // .swiper-pagination{
+    //   // color: $colorWhite;
+    //   // background-color: $colorBlue;
+    // }
+    .swiper-slide img.lgxl {
+      display: block;
+      width: 100%;
+      height: 90%;
+      object-fit: cover;
+    }
+    div.swiper-slide {
+      > div.lgxl {
+        position: absolute;
+        left: 6%;
+        > img {
+          display: block;
+          width: 320px;
+          height: 160px;
+          object-fit: cover;
+        }
+        > h3 {
+          width: 320px;
+          padding: 3%;
+        }
+        > a {
+          display: block;
+          padding: 4%;
+          background-color: $colorBlue;
+          color: $colorWhite;
+          text-transform: capitalize;
+          font-weight: bold;
+          border-radius: 5px;
+          &:hover {
+            border: 1px solid white;
+          }
+        }
+      }
+    }
+  }
+  div.slider-2 {
+    width: 100%;
+    height: 500px;
+    margin-top: 10px;
+    margin-bottom: 1%;
+    background-color: $bgcBlack;
+    padding: 20px;
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      // flex-flow: row nowrap;
+      justify-content: center;
+      align-items: center;
+    }
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+@include md{
+  div.slider-1 {
+    width: 100%;
+    height: 500px;
+    margin-top: 10px;
+    margin-bottom: 1%;
+    background-color: $bgcBlack;
+    padding: 20px;
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: $bgcBlack;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 10px;
+      color: $colorWhite;
+    }
+    // .swiper-pagination{
+    //   // color: $colorWhite;
+    //   // background-color: $colorBlue;
+    // }
+    .swiper-slide img.lgxl {
+      display: none;
+      width: 100%;
+      height: 90%;
+      object-fit: cover;
+      // backdrop-filter: blur(5px);
+    }
+    .swiper-slide img.mdsmxs {
+      display: block;
+      width: 100%;
+      height: 90%;
+      object-fit: cover;
+    }
+    div.swiper-slide {
+      > div.lgxl {
+        display: none;
+        position: absolute;
+        left: 50%;
+        > img {
+          display: block;
+          width: 320px;
+          height: 160px;
+          object-fit: cover;
+        }
+        > h3 {
+          width: 320px;
+          padding: 3%;
+        }
+        > a {
+          display: block;
+          padding: 4%;
+          background-color: $colorBlue;
+          color: $colorWhite;
+          text-transform: capitalize;
+          font-weight: bold;
+          border-radius: 5px;
+          &:hover {
+            border: 1px solid white;
+          }
+        }
+      }
+      > div.mdsmxs {
+        display: block;
+        position: absolute;
+        left: 30%;
+        > img {
+          display: block;
+          width: 320px;
+          height: 160px;
+          object-fit: cover;
+        }
+        > h3 {
+          width: 320px;
+          padding: 3%;
+        }
+        > a {
+          display: block;
+          padding: 4%;
+          background-color: $colorBlue;
+          color: $colorWhite;
+          text-transform: capitalize;
+          font-weight: bold;
+          border-radius: 5px;
+          &:hover {
+            border: 1px solid white;
+          }
+        }
+      }
+    }
+  }
+  div.slider-2 {
+    width: 100%;
+    height: 500px;
+    margin-top: 10px;
+    margin-bottom: 1%;
+    background-color: $bgcBlack;
+    padding: 20px;
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      // flex-flow: row nowrap;
+      justify-content: center;
+      align-items: center;
+    }
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+@include sm{
+  div.slider-1 {
+    width: 100%;
+    height: 500px;
+    margin-top: 10px;
+    margin-bottom: 1%;
+    background-color: $bgcBlack;
+    padding: 20px;
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: $bgcBlack;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 10px;
+      color: $colorWhite;
+    }
+    // .swiper-pagination{
+    //   // color: $colorWhite;
+    //   // background-color: $colorBlue;
+    // }
+    .swiper-slide img.lgxl {
+      display: none;
+      width: 100%;
+      height: 90%;
+      object-fit: cover;
+      // backdrop-filter: blur(5px);
+    }
+    .swiper-slide img.mdsmxs {
+      display: block;
+      width: 100%;
+      height: 90%;
+      object-fit: cover;
+    }
+    div.swiper-slide {
+      > div.lgxl {
+        display: none;
+        position: absolute;
+        left: 50%;
+        > img {
+          display: block;
+          width: 320px;
+          height: 160px;
+          object-fit: cover;
+        }
+        > h3 {
+          width: 320px;
+          padding: 3%;
+        }
+        > a {
+          display: block;
+          padding: 4%;
+          background-color: $colorBlue;
+          color: $colorWhite;
+          text-transform: capitalize;
+          font-weight: bold;
+          border-radius: 5px;
+          &:hover {
+            border: 1px solid white;
+          }
+        }
+      }
+      > div.mdsmxs {
+        display: block;
+        position: absolute;
+        left: 25%;
+        > img {
+          display: block;
+          width: 320px;
+          height: 160px;
+          object-fit: cover;
+        }
+        > h3 {
+          width: 320px;
+          padding: 3%;
+        }
+        > a {
+          display: block;
+          padding: 4%;
+          background-color: $colorBlue;
+          color: $colorWhite;
+          text-transform: capitalize;
+          font-weight: bold;
+          border-radius: 5px;
+          &:hover {
+            border: 1px solid white;
+          }
+        }
+      }
+    }
+  }
+  div.slider-2 {
+    width: 100%;
+    height: 500px;
+    margin-top: 10px;
+    margin-bottom: 1%;
+    background-color: $bgcBlack;
+    padding: 20px;
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      // flex-flow: row nowrap;
+      justify-content: center;
+      align-items: center;
+    }
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+@include xs{
+  div.slider-1 {
+    width: 100%;
+    height: 500px;
+    margin-top: 10px;
+    margin-bottom: 1%;
+    background-color: $bgcBlack;
+    padding: 20px;
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: $bgcBlack;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 10px;
+      color: $colorWhite;
+    }
+    // .swiper-pagination{
+    //   // color: $colorWhite;
+    //   // background-color: $colorBlue;
+    // }
+    .swiper-slide img.lgxl {
+      display: none;
+      width: 100%;
+      height: 90%;
+      object-fit: cover;
+      // backdrop-filter: blur(5px);
+    }
+    .swiper-slide img.mdsmxs {
+      display: block;
+      width: 100%;
+      height: 90%;
+      object-fit: cover;
+    }
+    div.swiper-slide {
+      > div.lgxl {
+        display: none;
+        position: absolute;
+        left: 50%;
+        > img {
+          display: block;
+          width: 320px;
+          height: 160px;
+          object-fit: cover;
+        }
+        > h3 {
+          width: 320px;
+          padding: 3%;
+        }
+        > a {
+          display: block;
+          padding: 4%;
+          background-color: $colorBlue;
+          color: $colorWhite;
+          text-transform: capitalize;
+          font-weight: bold;
+          border-radius: 5px;
+          &:hover {
+            border: 1px solid white;
+          }
+        }
+      }
+      > div.mdsmxs {
+        display: block;
+        position: absolute;
+        left: 15%;
+        > img {
+          display: block;
+          width: 90%;
+          height: 160px;
+          object-fit: cover;
+        }
+        > h3 {
+          width: 320px;
+          padding: 2%;
+        }
+        > a {
+          width: fit-content;
+          display: block;
+          padding: 4%;
+          margin: 0 auto;
+          background-color: $colorBlue;
+          color: $colorWhite;
+          text-transform: capitalize;
+          font-weight: bold;
+          border-radius: 5px;
+          &:hover {
+            border: 1px solid white;
+          }
+        }
+      }
+    }
+  }
+  div.slider-2 {
+    width: 100%;
+    height: 500px;
+    margin-top: 10px;
+    margin-bottom: 1%;
+    background-color: $bgcBlack;
+    padding: 20px;
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      // flex-flow: row nowrap;
+      justify-content: center;
+      align-items: center;
+    }
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

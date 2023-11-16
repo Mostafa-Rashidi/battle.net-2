@@ -1,0 +1,25 @@
+@mixin xl {
+  @media #{map-get($breakPoint,mediaType)} and (min-width:#{map-get($breakPoint,xl) + 1px}) {
+    @content;
+  }
+}
+@mixin lg {
+  @media #{map-get($breakPoint,mediaType)} and (min-width:#{map-get($breakPoint,lg) + 1px}) and (max-width:#{map-get($breakPoint,xl)}) {
+    @content;
+  }
+}
+@mixin md {
+  @media #{map-get($breakPoint,mediaType)} and (min-width:#{map-get($breakPoint,md) + 1px}) and (max-width:#{map-get($breakPoint,lg)}) {
+    @content;
+  }
+}
+@mixin sm {
+  @media #{map-get($breakPoint,mediaType)} and (min-width:#{map-get($breakPoint,sm) + 1px}) and (max-width:#{map-get($breakPoint,md)}) {
+    @content;
+  }
+}
+@mixin xs {
+  @media #{map-get($breakPoint,mediaType)} and (max-width:#{map-get($breakPoint,sm)}) {
+    @content;
+  }
+}

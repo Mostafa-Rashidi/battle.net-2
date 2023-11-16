@@ -1,0 +1,6 @@
+// variables , functions , media
+@import "./variables" , "./media"; 
+// setting(global classes)
+@import "./setting";
+// header , product , footer , ...
+@import "./header" , "./slider" , "./product" , "./footer";

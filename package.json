@@ -1,0 +1,20 @@
+{
+  "name": "battlenet",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "scss": "node-sass -w ./public/scss/ -o ./public/css/ -r",
+    "server":"json-server -w db.json --port 3000"
+  },
+  "devDependencies": {
+    "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "json-server": "^0.17.4",
+    "node-sass": "^9.0.0"
+  }
+}

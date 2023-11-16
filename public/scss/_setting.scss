@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+.wrapper{
+    width: 100%;
+    background-color: $bgcBlack;
+}
+
+a.toppage{
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    z-index: 100;
+    width: 40px;
+    height: 40px;
+    background-color: $bgcBlack;
+    color: $colorWhite;
+    font-size: 30px;
+    position: fixed;
+    bottom: 6%;
+    right: 3%;
+    border: 1px solid $colorGrey;
+    &:hover{
+    border: 2px solid $colorGrey;
+    }
+}
+#close , #open , label[for="open"] , label[for="close"] , #close-1 , #open-1 , label[for="open-1"] , label[for="close-1"] , div.log-2 , div.log-3 , li.ulAaccount , div.search-1 , img.mdsmxs , div.mdsmxs {
+    display: none;
+}

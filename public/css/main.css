@@ -1,0 +1,3964 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth; }
+
+.wrapper {
+  width: 100%;
+  background-color: #15171E; }
+
+a.toppage {
+  display: block;
+  text-align: center;
+  line-height: 50px;
+  z-index: 100;
+  width: 40px;
+  height: 40px;
+  background-color: #15171E;
+  color: #FFFFFF;
+  font-size: 30px;
+  position: fixed;
+  bottom: 6%;
+  right: 3%;
+  border: 1px solid #6b6b6b; }
+  a.toppage:hover {
+    border: 2px solid #6b6b6b; }
+
+#close, #open, label[for="open"], label[for="close"], #close-1, #open-1, label[for="open-1"], label[for="close-1"], div.log-2, div.log-3, li.ulAaccount, div.search-1, img.mdsmxs, div.mdsmxs {
+  display: none; }
+
+@media screen and (min-width: 1201px) {
+  header {
+    width: 100%;
+    height: 70px;
+    background-color: #15171E;
+    display: flex;
+    align-items: center; }
+    header > .top {
+      width: 100%;
+      height: 60%;
+      background-color: #15171E;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between; }
+      header > .top > .logo {
+        width: 60%;
+        height: 100%;
+        background-color: #15171E; }
+        header > .top > .logo > a {
+          width: 100%;
+          height: 100%;
+          background-color: #15171E;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: start;
+          color: #FFFFFF;
+          text-decoration: none;
+          text-transform: capitalize;
+          gap: 6px;
+          align-items: center; }
+          header > .top > .logo > a > i {
+            font-size: 30px;
+            color: #148EFF; }
+          header > .top > .logo > a > h1 {
+            font-size: 28px;
+            font-family: "Courier New", Courier, monospace; }
+      header > .top > .login {
+        width: 40%;
+        height: 100%;
+        background-color: #15171E;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around; }
+        header > .top > .login > #Download {
+          width: 45%; }
+        header > .top > .login > a {
+          width: 25%;
+          height: 100%;
+          background-color: #15171E;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: center;
+          color: #FFFFFF;
+          text-decoration: none;
+          text-transform: capitalize;
+          gap: 6px;
+          align-items: center; }
+          header > .top > .login > a:hover {
+            background-color: #3b3b3b; }
+          header > .top > .login > a > i {
+            font-size: 20px;
+            font-weight: bolder;
+            background-color: #15171E;
+            color: #6b6b6b; }
+          header > .top > .login > a > h2 {
+            font-size: 18px; }
+        header > .top > .login > ul {
+          width: 25%;
+          height: inherit;
+          background-color: #15171E;
+          text-align: center;
+          position: relative;
+          transition: 500ms; }
+          header > .top > .login > ul > li {
+            width: 100%;
+            height: inherit;
+            line-height: 50px;
+            background-color: #15171E;
+            transition: 500ms;
+            list-style: none;
+            font-size: 16px;
+            font-weight: bold;
+            color: #FFFFFF;
+            transition: 500ms; }
+            header > .top > .login > ul > li > a {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              gap: 6px;
+              width: 90%;
+              background-color: #15171E;
+              font-size: 18px;
+              color: #FFFFFF; }
+              header > .top > .login > ul > li > a:hover {
+                background-color: #3b3b3b; }
+            header > .top > .login > ul > li > ul {
+              width: 30vw;
+              background-color: #15171E;
+              transition: 500ms;
+              position: absolute;
+              right: 0;
+              display: none;
+              z-index: 100; }
+              header > .top > .login > ul > li > ul > li:first-child {
+                justify-content: center; }
+              header > .top > .login > ul > li > ul > li:last-child {
+                background-color: #2b2b2b; }
+                header > .top > .login > ul > li > ul > li:last-child > a {
+                  background-color: #2b2b2b; }
+              header > .top > .login > ul > li > ul > li {
+                display: flex;
+                flex-flow: row wrap;
+                gap: 6px;
+                width: inherit;
+                list-style: none;
+                color: #FFFFFF; }
+                header > .top > .login > ul > li > ul > li > a {
+                  display: block;
+                  width: 90%;
+                  text-align: left;
+                  background-color: #15171E;
+                  text-decoration: none;
+                  font-size: 16px;
+                  line-height: 20px;
+                  padding: 10px;
+                  color: #FFFFFF;
+                  border-radius: 10px; }
+                  header > .top > .login > ul > li > ul > li > a:hover {
+                    background-color: #3b3b3b; }
+                header > .top > .login > ul > li > ul > li > a.login {
+                  width: 80%;
+                  text-align: center;
+                  background-color: #148EFF; }
+                  header > .top > .login > ul > li > ul > li > a.login:hover {
+                    background-color: #4ba6fc; }
+              header > .top > .login > ul > li > ul > li.ulAaccount {
+                display: none; }
+            header > .top > .login > ul > li:hover > ul {
+              display: block;
+              transition: 500ms; }
+            header > .top > .login > ul > li > i {
+              font-size: 20px;
+              background-color: #15171E;
+              color: #6b6b6b; }
+  div.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #23252B;
+    height: 60px;
+    position: sticky;
+    top: 0;
+    z-index: 10; }
+    div.navbar > nav {
+      width: 100%;
+      height: 62%;
+      background-color: #23252B;
+      position: relative;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between; }
+      div.navbar > nav > div.menu {
+        width: 80%;
+        height: auto;
+        background-color: #23252B;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center; }
+        div.navbar > nav > div.menu > ul {
+          width: 99%;
+          height: auto;
+          background-color: #23252B;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: space-evenly; }
+          div.navbar > nav > div.menu > ul > li {
+            width: 10%;
+            height: auto;
+            position: relative;
+            background-color: #23252B;
+            display: flex;
+            justify-content: center; }
+            div.navbar > nav > div.menu > ul > li > a {
+              display: block;
+              width: fit-content;
+              text-align: center;
+              line-height: 40px;
+              font-size: 15px;
+              color: #6b6b6b; }
+              div.navbar > nav > div.menu > ul > li > a > span {
+                display: inline-block;
+                vertical-align: baseline;
+                font-size: 20px; }
+            div.navbar > nav > div.menu > ul > li > ul {
+              display: none;
+              z-index: 100;
+              width: 20vw;
+              background-color: #15171E;
+              transition: 500ms;
+              position: absolute;
+              left: 0;
+              top: 40px; }
+              div.navbar > nav > div.menu > ul > li > ul > li {
+                width: 98%;
+                margin: 0 auto;
+                padding: 6px; }
+                div.navbar > nav > div.menu > ul > li > ul > li > a {
+                  display: block;
+                  width: 90%;
+                  border-radius: 10px;
+                  line-height: 20px;
+                  font-size: 14px;
+                  color: #6b6b6b;
+                  padding: 4px 10px; }
+                  div.navbar > nav > div.menu > ul > li > ul > li > a > span {
+                    display: block;
+                    width: fit-content;
+                    font-size: 12px; }
+                  div.navbar > nav > div.menu > ul > li > ul > li > a:hover {
+                    background-color: #3b3b3b;
+                    color: #FFFFFF; }
+                    div.navbar > nav > div.menu > ul > li > ul > li > a:hover > span {
+                      color: #6b6b6b; }
+            div.navbar > nav > div.menu > ul > li:hover {
+              background-color: #6b6b6b; }
+              div.navbar > nav > div.menu > ul > li:hover > a {
+                color: #FFFFFF; }
+              div.navbar > nav > div.menu > ul > li:hover > ul {
+                display: block; }
+          div.navbar > nav > div.menu > ul > li:last-child {
+            background-color: #23252B;
+            width: 17%; }
+            div.navbar > nav > div.menu > ul > li:last-child > a {
+              color: lawngreen;
+              font-weight: bold;
+              font-size: 17px; }
+      div.navbar > nav > div.search {
+        width: 3%;
+        height: auto;
+        background-color: #23252B;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center; }
+        div.navbar > nav > div.search:hover {
+          background-color: #3b3b3b; }
+        div.navbar > nav > div.search > i {
+          color: #FFFFFF;
+          font-size: 20px;
+          font-weight: bolder; }
+        div.navbar > nav > div.search:active > input {
+          display: block; }
+        div.navbar > nav > div.search:active > i {
+          font-size: 15px;
+          font-weight: bold;
+          position: absolute;
+          left: 10px;
+          top: 13px;
+          z-index: 100; }
+        div.navbar > nav > div.search > input {
+          display: none;
+          width: 85vw;
+          height: 40px;
+          background-color: #3b3b3b;
+          color: #FFFFFF;
+          position: absolute;
+          left: 0;
+          top: 0;
+          border-radius: 5px;
+          outline: none;
+          padding: 10px 40px 10px 40px; }
+      div.navbar > nav > div.balance {
+        width: 15%;
+        height: auto;
+        background-color: #23252B;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center; }
+        div.navbar > nav > div.balance > ul {
+          width: 100%;
+          height: auto;
+          background-color: #23252B;
+          position: relative; }
+          div.navbar > nav > div.balance > ul > li {
+            width: inherit;
+            height: auto;
+            background-color: #23252B;
+            text-align: center; }
+            div.navbar > nav > div.balance > ul > li > a {
+              display: block;
+              font-size: 18px;
+              line-height: 40px;
+              color: #6b6b6b;
+              align-items: center; }
+            div.navbar > nav > div.balance > ul > li > ul {
+              display: none;
+              z-index: 100;
+              width: 20vw;
+              position: absolute;
+              right: 0;
+              top: 40px;
+              background-color: #15171E; }
+              div.navbar > nav > div.balance > ul > li > ul > li {
+                width: inherit;
+                background-color: #15171E; }
+                div.navbar > nav > div.balance > ul > li > ul > li:hover > a {
+                  background-color: #3b3b3b;
+                  color: #FFFFFF; }
+                div.navbar > nav > div.balance > ul > li > ul > li > a {
+                  display: block;
+                  width: 90%;
+                  background-color: #15171E;
+                  color: #6b6b6b;
+                  font-size: 18px;
+                  line-height: 40px;
+                  text-transform: capitalize;
+                  border-radius: 6px;
+                  text-align: justify;
+                  padding-left: 10px; }
+            div.navbar > nav > div.balance > ul > li:hover > a {
+              background-color: #3b3b3b;
+              color: #FFFFFF; }
+            div.navbar > nav > div.balance > ul > li:hover > ul {
+              display: block; } }
+
+@media screen and (min-width: 943px) and (max-width: 1200px) {
+  header {
+    width: 100%;
+    height: 70px;
+    background-color: #15171E;
+    display: flex;
+    align-items: center; }
+    header > .top {
+      width: 100%;
+      height: 60%;
+      background-color: #15171E;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between; }
+      header > .top > .logo {
+        width: 60%;
+        height: 100%;
+        background-color: #15171E; }
+        header > .top > .logo > a {
+          width: 100%;
+          height: 100%;
+          background-color: #15171E;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: start;
+          color: #FFFFFF;
+          text-decoration: none;
+          text-transform: capitalize;
+          gap: 6px;
+          align-items: center; }
+          header > .top > .logo > a > i {
+            font-size: 30px;
+            color: #148EFF; }
+          header > .top > .logo > a > h1 {
+            font-size: 28px;
+            font-family: "Courier New", Courier, monospace; }
+      header > .top > .login {
+        width: 40%;
+        height: 100%;
+        background-color: #15171E;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around; }
+        header > .top > .login > #Download {
+          width: 45%; }
+        header > .top > .login > a {
+          width: 25%;
+          height: 100%;
+          background-color: #15171E;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: center;
+          color: #FFFFFF;
+          text-decoration: none;
+          text-transform: capitalize;
+          gap: 6px;
+          align-items: center;
+          font-size: 90%; }
+          header > .top > .login > a:hover {
+            background-color: #3b3b3b; }
+          header > .top > .login > a > i {
+            font-size: 110%;
+            font-weight: bolder;
+            background-color: #15171E;
+            color: #6b6b6b; }
+          header > .top > .login > a > h2 {
+            font-size: 90%; }
+        header > .top > .login > ul {
+          width: 25%;
+          height: inherit;
+          background-color: #15171E;
+          text-align: center;
+          position: relative;
+          transition: 500ms; }
+          header > .top > .login > ul > li {
+            width: 100%;
+            height: inherit;
+            line-height: 290%;
+            background-color: #15171E;
+            transition: 500ms;
+            font-size: 16px;
+            font-weight: bold;
+            color: #FFFFFF;
+            transition: 500ms; }
+            header > .top > .login > ul > li > a {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              gap: 6px;
+              width: 90%;
+              background-color: #15171E;
+              font-size: 90%;
+              color: #FFFFFF; }
+              header > .top > .login > ul > li > a:hover {
+                background-color: #3b3b3b; }
+            header > .top > .login > ul > li > ul {
+              width: 30vw;
+              background-color: #15171E;
+              transition: 500ms;
+              position: absolute;
+              right: 0;
+              display: none;
+              z-index: 100; }
+              header > .top > .login > ul > li > ul > li:first-child {
+                justify-content: center; }
+              header > .top > .login > ul > li > ul > li:last-child {
+                background-color: #2b2b2b; }
+                header > .top > .login > ul > li > ul > li:last-child > a {
+                  background-color: #2b2b2b; }
+              header > .top > .login > ul > li > ul > li {
+                display: flex;
+                flex-flow: row wrap;
+                gap: 6px;
+                width: inherit;
+                list-style: none;
+                color: #FFFFFF; }
+                header > .top > .login > ul > li > ul > li > a {
+                  display: block;
+                  width: 90%;
+                  text-align: left;
+                  background-color: #15171E;
+                  text-decoration: none;
+                  font-size: 16px;
+                  line-height: 20px;
+                  padding: 10px;
+                  color: #FFFFFF;
+                  border-radius: 10px; }
+                  header > .top > .login > ul > li > ul > li > a:hover {
+                    background-color: #3b3b3b; }
+                header > .top > .login > ul > li > ul > li > a.login {
+                  width: 80%;
+                  text-align: center;
+                  background-color: #148EFF; }
+                  header > .top > .login > ul > li > ul > li > a.login:hover {
+                    background-color: #4ba6fc; }
+              header > .top > .login > ul > li > ul > li.ulAaccount {
+                display: none; }
+            header > .top > .login > ul > li:hover > ul {
+              display: block;
+              transition: 500ms; }
+            header > .top > .login > ul > li > i {
+              font-size: 20px;
+              background-color: #15171E;
+              color: #6b6b6b; }
+  div.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #23252B;
+    height: 60px;
+    position: sticky;
+    top: 0;
+    z-index: 10; }
+    div.navbar > nav {
+      width: 100%;
+      height: 62%;
+      background-color: #23252B;
+      position: relative;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between; }
+      div.navbar > nav > div.menu {
+        width: 80%;
+        height: auto;
+        background-color: #23252B;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center; }
+        div.navbar > nav > div.menu > ul {
+          width: 99%;
+          height: auto;
+          background-color: #23252B;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: space-evenly; }
+          div.navbar > nav > div.menu > ul > li {
+            width: 10%;
+            height: auto;
+            position: relative;
+            background-color: #23252B;
+            display: flex;
+            justify-content: center; }
+            div.navbar > nav > div.menu > ul > li > a {
+              display: block;
+              width: fit-content;
+              text-align: center;
+              line-height: 40px;
+              font-size: 80%;
+              color: #6b6b6b; }
+              div.navbar > nav > div.menu > ul > li > a > span {
+                display: inline-block;
+                vertical-align: baseline;
+                font-size: 90%; }
+            div.navbar > nav > div.menu > ul > li > ul {
+              display: none;
+              z-index: 100;
+              width: 20vw;
+              background-color: #15171E;
+              transition: 500ms;
+              position: absolute;
+              left: 0;
+              top: 40px; }
+              div.navbar > nav > div.menu > ul > li > ul > li {
+                width: 98%;
+                margin: 0 auto;
+                padding: 6px; }
+                div.navbar > nav > div.menu > ul > li > ul > li > a {
+                  display: block;
+                  width: 90%;
+                  border-radius: 10px;
+                  line-height: 20px;
+                  font-size: 14px;
+                  color: #6b6b6b;
+                  padding: 4px 10px; }
+                  div.navbar > nav > div.menu > ul > li > ul > li > a > span {
+                    display: block;
+                    width: fit-content;
+                    font-size: 12px; }
+                  div.navbar > nav > div.menu > ul > li > ul > li > a:hover {
+                    background-color: #3b3b3b;
+                    color: #FFFFFF; }
+                    div.navbar > nav > div.menu > ul > li > ul > li > a:hover > span {
+                      color: #6b6b6b; }
+            div.navbar > nav > div.menu > ul > li:hover {
+              background-color: #6b6b6b; }
+              div.navbar > nav > div.menu > ul > li:hover > a {
+                color: #FFFFFF; }
+              div.navbar > nav > div.menu > ul > li:hover > ul {
+                display: block; }
+          div.navbar > nav > div.menu > ul > li:last-child {
+            background-color: #23252B;
+            width: 17%; }
+            div.navbar > nav > div.menu > ul > li:last-child > a {
+              color: lawngreen;
+              font-weight: bold;
+              font-size: 83%; }
+      div.navbar > nav > div.search {
+        width: 3%;
+        height: auto;
+        background-color: #23252B;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center; }
+        div.navbar > nav > div.search:hover {
+          background-color: #3b3b3b; }
+        div.navbar > nav > div.search > i {
+          color: #FFFFFF;
+          font-size: 90%;
+          font-weight: bolder; }
+        div.navbar > nav > div.search:active > input {
+          display: block; }
+        div.navbar > nav > div.search:active > i {
+          font-size: 90%;
+          font-weight: bold;
+          position: absolute;
+          left: 10px;
+          top: 13px;
+          z-index: 100; }
+        div.navbar > nav > div.search > input {
+          display: none;
+          width: 85vw;
+          height: 40px;
+          background-color: #3b3b3b;
+          color: #FFFFFF;
+          position: absolute;
+          left: 0;
+          top: 0;
+          border-radius: 5px;
+          outline: none;
+          padding: 10px 40px 10px 40px; }
+      div.navbar > nav > div.balance {
+        width: 15%;
+        height: auto;
+        background-color: #23252B;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center; }
+        div.navbar > nav > div.balance > ul {
+          width: 100%;
+          height: auto;
+          background-color: #23252B;
+          position: relative; }
+          div.navbar > nav > div.balance > ul > li {
+            width: inherit;
+            height: auto;
+            background-color: #23252B;
+            text-align: center; }
+            div.navbar > nav > div.balance > ul > li > a {
+              display: block;
+              font-size: 95%;
+              line-height: 40px;
+              color: #6b6b6b;
+              align-items: center; }
+            div.navbar > nav > div.balance > ul > li > ul {
+              display: none;
+              z-index: 100;
+              width: 20vw;
+              position: absolute;
+              right: 0;
+              top: 40px;
+              background-color: #15171E; }
+              div.navbar > nav > div.balance > ul > li > ul > li {
+                width: inherit;
+                background-color: #15171E; }
+                div.navbar > nav > div.balance > ul > li > ul > li:hover > a {
+                  background-color: #3b3b3b;
+                  color: #FFFFFF; }
+                div.navbar > nav > div.balance > ul > li > ul > li > a {
+                  display: block;
+                  width: 90%;
+                  background-color: #15171E;
+                  color: #6b6b6b;
+                  font-size: 18px;
+                  line-height: 40px;
+                  text-transform: capitalize;
+                  border-radius: 6px;
+                  text-align: justify;
+                  padding-left: 10px; }
+            div.navbar > nav > div.balance > ul > li:hover > a {
+              background-color: #3b3b3b;
+              color: #FFFFFF; }
+            div.navbar > nav > div.balance > ul > li:hover > ul {
+              display: block; } }
+
+@media screen and (min-width: 769px) and (max-width: 942px) {
+  header {
+    width: 100%;
+    height: 70px;
+    background-color: #15171E;
+    display: flex;
+    align-items: center;
+    flex-flow: row nowrap;
+    justify-content: space-between; }
+    header > .top {
+      width: 65%;
+      height: 40px;
+      background-color: #15171E;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+      position: absolute;
+      top: 6px;
+      right: 6px; }
+      header > .top > .logo {
+        width: 40%;
+        height: 100%;
+        background-color: #15171E; }
+        header > .top > .logo > a {
+          width: 100%;
+          height: 100%;
+          background-color: #15171E;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: start;
+          color: #FFFFFF;
+          text-transform: capitalize;
+          gap: 6px;
+          align-items: center; }
+          header > .top > .logo > a > i {
+            font-size: 30px;
+            color: #148EFF; }
+          header > .top > .logo > a > h1 {
+            font-size: 26px;
+            font-family: "Courier New", Courier, monospace; }
+      header > .top > .login {
+        width: 50%;
+        height: 100%;
+        background-color: #15171E;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: end;
+        position: relative; }
+        header > .top > .login > #Download {
+          display: none;
+          width: 45%; }
+        header > .top > .login > a {
+          display: none;
+          width: 25%;
+          height: 100%;
+          background-color: #15171E;
+          color: #FFFFFF;
+          text-decoration: none;
+          text-transform: capitalize;
+          gap: 6px;
+          align-items: center;
+          font-size: 90%; }
+          header > .top > .login > a:hover {
+            background-color: #3b3b3b; }
+          header > .top > .login > a > i {
+            font-size: 110%;
+            font-weight: bolder;
+            background-color: #15171E;
+            color: #6b6b6b; }
+          header > .top > .login > a > h2 {
+            font-size: 90%; }
+        header > .top > .login > ul.ulaccount {
+          display: none; }
+        header > .top > .login > #open-1:checked ~ ul.ulaccount {
+          display: block;
+          width: 50vw;
+          height: auto;
+          background-color: #15171E;
+          text-align: center;
+          position: relative;
+          transition: 500ms; }
+          header > .top > .login > #open-1:checked ~ ul.ulaccount > li {
+            display: flex;
+            flex-flow: wrap wrap;
+            justify-content: center;
+            width: 50vw;
+            height: auto;
+            line-height: 290%;
+            background-color: #15171E;
+            transition: 500ms;
+            font-size: 16px;
+            font-weight: bold;
+            color: #FFFFFF;
+            transition: 500ms; }
+            header > .top > .login > #open-1:checked ~ ul.ulaccount > li > div.log-3 {
+              display: block;
+              width: 100%;
+              height: auto; }
+              header > .top > .login > #open-1:checked ~ ul.ulaccount > li > div.log-3 > a.logB {
+                width: 100%;
+                height: 100%;
+                background-color: #15171E;
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: center;
+                color: #FFFFFF;
+                text-decoration: none;
+                text-transform: capitalize;
+                gap: 6px;
+                align-items: center; }
+                header > .top > .login > #open-1:checked ~ ul.ulaccount > li > div.log-3 > a.logB > i {
+                  font-size: 150%;
+                  color: #148EFF; }
+                header > .top > .login > #open-1:checked ~ ul.ulaccount > li > div.log-3 > a.logB > h1 {
+                  font-size: 130%;
+                  font-family: "Courier New", Courier, monospace; }
+            header > .top > .login > #open-1:checked ~ ul.ulaccount > li > a {
+              display: none;
+              justify-content: center;
+              align-items: center;
+              gap: 6px;
+              width: 90%;
+              background-color: #15171E;
+              font-size: 90%;
+              color: #FFFFFF; }
+              header > .top > .login > #open-1:checked ~ ul.ulaccount > li > a:hover {
+                background-color: #3b3b3b; }
+            header > .top > .login > #open-1:checked ~ ul.ulaccount > li > ul {
+              width: 100%;
+              background-color: #15171E;
+              transition: 500ms;
+              position: absolute;
+              right: 0;
+              top: 48px;
+              display: flex;
+              flex-flow: column wrap;
+              z-index: 100; }
+              header > .top > .login > #open-1:checked ~ ul.ulaccount > li > ul > li:first-child {
+                justify-content: center; }
+              header > .top > .login > #open-1:checked ~ ul.ulaccount > li > ul > li.ulAaccount {
+                display: flex;
+                flex-flow: row wrap;
+                background-color: #23252B; }
+                header > .top > .login > #open-1:checked ~ ul.ulaccount > li > ul > li.ulAaccount > a.ulAaccount {
+                  width: 90%;
+                  height: 100%;
+                  background-color: #23252B;
+                  display: flex;
+                  flex-flow: row wrap;
+                  justify-content: start;
+                  color: #FFFFFF;
+                  text-decoration: none;
+                  text-transform: capitalize;
+                  gap: 6px;
+                  align-items: center;
+                  font-size: 110%; }
+                  header > .top > .login > #open-1:checked ~ ul.ulaccount > li > ul > li.ulAaccount > a.ulAaccount:hover {
+                    background-color: #3b3b3b; }
+                  header > .top > .login > #open-1:checked ~ ul.ulaccount > li > ul > li.ulAaccount > a.ulAaccount > i {
+                    font-size: 110%;
+                    font-weight: bolder;
+                    background-color: #2b2b2b;
+                    color: #FFFFFF; }
+                  header > .top > .login > #open-1:checked ~ ul.ulaccount > li > ul > li.ulAaccount > a.ulAaccount > h2 {
+                    font-size: 90%; }
+              header > .top > .login > #open-1:checked ~ ul.ulaccount > li > ul > li:last-child {
+                background-color: #23252B;
+                padding-bottom: 1%; }
+                header > .top > .login > #open-1:checked ~ ul.ulaccount > li > ul > li:last-child > a {
+                  background-color: #23252B; }
+              header > .top > .login > #open-1:checked ~ ul.ulaccount > li > ul > li {
+                display: flex;
+                flex-flow: row wrap;
+                gap: 6px;
+                width: inherit;
+                color: #FFFFFF; }
+                header > .top > .login > #open-1:checked ~ ul.ulaccount > li > ul > li > a {
+                  display: block;
+                  width: 90%;
+                  text-align: left;
+                  background-color: #15171E;
+                  text-decoration: none;
+                  font-size: 16px;
+                  line-height: 20px;
+                  padding: 10px;
+                  color: #FFFFFF;
+                  border-radius: 10px; }
+                  header > .top > .login > #open-1:checked ~ ul.ulaccount > li > ul > li > a:hover {
+                    background-color: #3b3b3b; }
+                header > .top > .login > #open-1:checked ~ ul.ulaccount > li > ul > li > a.login {
+                  width: 80%;
+                  text-align: center;
+                  background-color: #148EFF; }
+                  header > .top > .login > #open-1:checked ~ ul.ulaccount > li > ul > li > a.login:hover {
+                    background-color: #4ba6fc; }
+            header > .top > .login > #open-1:checked ~ ul.ulaccount > li:hover > ul {
+              display: block;
+              transition: 500ms; }
+            header > .top > .login > #open-1:checked ~ ul.ulaccount > li > i {
+              font-size: 20px;
+              background-color: #15171E;
+              color: #6b6b6b; }
+        header > .top > .login > #open-1:checked ~ label[for="close-1"] {
+          display: inline-block;
+          width: 25px;
+          height: 25px;
+          color: #FFFFFF;
+          position: absolute;
+          cursor: pointer;
+          right: 1;
+          top: 0;
+          font-size: 35px;
+          z-index: 101; }
+        header > .top > .login > #close-1:checked ~ ul.ulaccount {
+          display: none; }
+        header > .top > .login > #close-1:checked ~ label[for="open-1"] {
+          display: block; }
+        header > .top > .login > label[for="open-1"] {
+          display: block;
+          position: absolute;
+          top: 0;
+          right: 0;
+          margin-right: 1%;
+          width: 25px;
+          height: 20px;
+          font-size: 130%;
+          cursor: pointer; }
+  div.navbar {
+    width: 33%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: start;
+    background-color: #15171E;
+    height: 40px;
+    padding: 2% 1%;
+    position: absolute;
+    top: 10px;
+    left: 6px;
+    z-index: 101; }
+    div.navbar > nav {
+      display: none; }
+    div.navbar > #open:checked ~ label[for="open"] {
+      display: none; }
+    div.navbar > #open:checked ~ nav {
+      width: 50vw;
+      height: auto;
+      background-color: #15171E;
+      position: absolute;
+      top: 0;
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: space-between; }
+      div.navbar > #open:checked ~ nav > div.log-2 {
+        display: block;
+        width: 100%;
+        height: auto;
+        padding: 1%; }
+        div.navbar > #open:checked ~ nav > div.log-2 > a.logA {
+          width: 100%;
+          height: 100%;
+          background-color: #15171E;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: center;
+          color: #FFFFFF;
+          text-decoration: none;
+          text-transform: capitalize;
+          gap: 6px;
+          align-items: center; }
+          div.navbar > #open:checked ~ nav > div.log-2 > a.logA > i {
+            font-size: 150%;
+            color: #148EFF; }
+          div.navbar > #open:checked ~ nav > div.log-2 > a.logA > h1 {
+            font-size: 130%;
+            font-family: "Courier New", Courier, monospace; }
+      div.navbar > #open:checked ~ nav > div.menu {
+        width: 80%;
+        height: auto;
+        background-color: #15171E;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center; }
+        div.navbar > #open:checked ~ nav > div.menu > ul {
+          width: 99%;
+          height: auto;
+          background-color: #15171E;
+          display: flex;
+          flex-flow: column wrap;
+          justify-content: space-evenly; }
+          div.navbar > #open:checked ~ nav > div.menu > ul > li {
+            width: 80%;
+            height: auto;
+            padding-left: 2%;
+            position: relative;
+            background-color: #15171E;
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: center; }
+            div.navbar > #open:checked ~ nav > div.menu > ul > li > a {
+              display: block;
+              width: fit-content;
+              text-align: center;
+              line-height: 40px;
+              font-size: 80%;
+              color: #6b6b6b; }
+              div.navbar > #open:checked ~ nav > div.menu > ul > li > a > span {
+                display: inline-block;
+                vertical-align: baseline;
+                font-size: 90%; }
+            div.navbar > #open:checked ~ nav > div.menu > ul > li > ul {
+              display: none;
+              z-index: 100;
+              width: 30vw;
+              background-color: #15171E;
+              transition: 500ms;
+              position: absolute;
+              left: 50%;
+              top: 0; }
+              div.navbar > #open:checked ~ nav > div.menu > ul > li > ul > li {
+                width: 98%;
+                margin: 0 auto;
+                padding: 6px; }
+                div.navbar > #open:checked ~ nav > div.menu > ul > li > ul > li > a {
+                  display: block;
+                  width: 90%;
+                  border-radius: 10px;
+                  line-height: 20px;
+                  font-size: 14px;
+                  color: #6b6b6b;
+                  padding: 4px 10px; }
+                  div.navbar > #open:checked ~ nav > div.menu > ul > li > ul > li > a > span {
+                    display: block;
+                    width: fit-content;
+                    font-size: 12px; }
+                  div.navbar > #open:checked ~ nav > div.menu > ul > li > ul > li > a:hover {
+                    background-color: #3b3b3b;
+                    color: #FFFFFF; }
+                    div.navbar > #open:checked ~ nav > div.menu > ul > li > ul > li > a:hover > span {
+                      color: #6b6b6b; }
+            div.navbar > #open:checked ~ nav > div.menu > ul > li:hover {
+              background-color: #6b6b6b; }
+              div.navbar > #open:checked ~ nav > div.menu > ul > li:hover > a {
+                color: #FFFFFF; }
+              div.navbar > #open:checked ~ nav > div.menu > ul > li:hover > ul {
+                display: block; }
+          div.navbar > #open:checked ~ nav > div.menu > ul > li:last-child {
+            background-color: #15171E;
+            width: 80%; }
+            div.navbar > #open:checked ~ nav > div.menu > ul > li:last-child > a {
+              color: lawngreen;
+              font-weight: bold;
+              font-size: 85%; }
+              div.navbar > #open:checked ~ nav > div.menu > ul > li:last-child > a:hover {
+                color: #FFB400; }
+      div.navbar > #open:checked ~ nav > div.search {
+        width: 100%;
+        height: 40px;
+        background-color: #23252B;
+        display: none; }
+        div.navbar > #open:checked ~ nav > div.search:hover {
+          background-color: #3b3b3b; }
+        div.navbar > #open:checked ~ nav > div.search > i {
+          color: #FFFFFF;
+          font-size: 90%;
+          font-weight: bolder; }
+        div.navbar > #open:checked ~ nav > div.search:active > input {
+          display: block;
+          width: 100%;
+          height: 40px;
+          background-color: #FFB400; }
+        div.navbar > #open:checked ~ nav > div.search:active > i {
+          font-size: 90%;
+          font-weight: bold;
+          position: absolute;
+          left: 10px;
+          top: 13px;
+          z-index: 100; }
+        div.navbar > #open:checked ~ nav > div.search > input {
+          display: none;
+          width: 85vw;
+          height: 40px;
+          background-color: #3b3b3b;
+          color: #FFFFFF;
+          position: absolute;
+          left: 0;
+          top: 0;
+          border-radius: 5px;
+          outline: none;
+          padding: 10px 40px 10px 40px; }
+      div.navbar > #open:checked ~ nav > div.balance {
+        width: 80%;
+        height: auto;
+        background-color: #15171E;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center; }
+        div.navbar > #open:checked ~ nav > div.balance > ul {
+          width: 100%;
+          height: auto;
+          background-color: #15171E;
+          position: relative; }
+          div.navbar > #open:checked ~ nav > div.balance > ul > li {
+            width: inherit;
+            height: auto;
+            background-color: #15171E;
+            text-align: start; }
+            div.navbar > #open:checked ~ nav > div.balance > ul > li > a {
+              display: block;
+              font-size: 95%;
+              line-height: 40px;
+              color: #6b6b6b;
+              align-items: center; }
+            div.navbar > #open:checked ~ nav > div.balance > ul > li > ul {
+              display: none;
+              z-index: 100;
+              width: 20vw;
+              position: absolute;
+              right: 0;
+              top: 0;
+              background-color: #15171E; }
+              div.navbar > #open:checked ~ nav > div.balance > ul > li > ul > li {
+                width: inherit;
+                background-color: #15171E; }
+                div.navbar > #open:checked ~ nav > div.balance > ul > li > ul > li:hover > a {
+                  background-color: #3b3b3b;
+                  color: #FFFFFF; }
+                div.navbar > #open:checked ~ nav > div.balance > ul > li > ul > li > a {
+                  display: block;
+                  width: 90%;
+                  background-color: #15171E;
+                  color: #6b6b6b;
+                  font-size: 18px;
+                  line-height: 40px;
+                  text-transform: capitalize;
+                  border-radius: 6px;
+                  text-align: justify;
+                  padding-left: 10px; }
+            div.navbar > #open:checked ~ nav > div.balance > ul > li:hover > a {
+              background-color: #3b3b3b;
+              color: #FFFFFF; }
+            div.navbar > #open:checked ~ nav > div.balance > ul > li:hover > ul {
+              display: block; }
+    div.navbar > #open:checked ~ label[for="close"] {
+      display: inline-block;
+      width: 25px;
+      height: 25px;
+      color: #FFFFFF;
+      position: absolute;
+      cursor: pointer;
+      left: 1;
+      top: 0;
+      font-size: 35px;
+      z-index: 100; }
+    div.navbar > #close:checked ~ nav {
+      display: none; }
+    div.navbar > #close:checked ~ label[for="open"] {
+      display: block; }
+    div.navbar > label[for="open"] {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 2;
+      margin-right: 1%;
+      width: 25px;
+      height: 20px;
+      cursor: pointer;
+      z-index: 1000; }
+      div.navbar > label[for="open"] > div {
+        color: #FFFFFF;
+        background-color: #FFFFFF;
+        width: inherit;
+        height: 3px;
+        margin-top: 5px; }
+  div.search-1 {
+    width: 96vw;
+    height: 60px;
+    position: relative;
+    background-color: #23252B;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 2.5%; }
+    div.search-1:hover > input {
+      background-color: #4b4b4b; }
+    div.search-1 > i {
+      font-size: 90%;
+      font-weight: bold;
+      color: #FFFFFF;
+      position: absolute;
+      left: 3%;
+      z-index: 100; }
+    div.search-1 > input {
+      display: block;
+      width: 96vw;
+      height: 60px;
+      background-color: #23252B;
+      color: #FFFFFF;
+      position: absolute;
+      left: 2;
+      top: 0;
+      border-radius: 5px;
+      border: none;
+      padding: 8px 40px 10px 45px; } }
+
+@media screen and (min-width: 581px) and (max-width: 768px) {
+  header {
+    width: 100%;
+    height: 70px;
+    background-color: #15171E;
+    display: flex;
+    align-items: center;
+    flex-flow: row nowrap;
+    justify-content: space-between; }
+    header > .top {
+      width: 65%;
+      height: 40px;
+      background-color: #15171E;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+      position: absolute;
+      top: 6px;
+      right: 6px; }
+      header > .top > .logo {
+        width: 40%;
+        height: 100%;
+        background-color: #15171E; }
+        header > .top > .logo > a {
+          width: 100%;
+          height: 100%;
+          background-color: #15171E;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: start;
+          color: #FFFFFF;
+          text-transform: capitalize;
+          gap: 6px;
+          align-items: center; }
+          header > .top > .logo > a > i {
+            font-size: 150%;
+            color: #148EFF; }
+          header > .top > .logo > a > h1 {
+            font-size: 126%;
+            font-family: "Courier New", Courier, monospace; }
+      header > .top > .login {
+        width: 50%;
+        height: 100%;
+        background-color: #15171E;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: end;
+        position: relative; }
+        header > .top > .login > #Download {
+          display: none;
+          width: 45%; }
+        header > .top > .login > a {
+          display: none;
+          width: 25%;
+          height: 100%;
+          background-color: #15171E;
+          color: #FFFFFF;
+          text-decoration: none;
+          text-transform: capitalize;
+          gap: 6px;
+          align-items: center;
+          font-size: 90%; }
+          header > .top > .login > a:hover {
+            background-color: #3b3b3b; }
+          header > .top > .login > a > i {
+            font-size: 110%;
+            font-weight: bolder;
+            background-color: #15171E;
+            color: #6b6b6b; }
+          header > .top > .login > a > h2 {
+            font-size: 90%; }
+        header > .top > .login > ul.ulaccount {
+          display: none; }
+        header > .top > .login > #open-1:checked ~ ul.ulaccount {
+          display: block;
+          width: 50vw;
+          height: auto;
+          background-color: #15171E;
+          text-align: center;
+          position: relative;
+          transition: 500ms; }
+          header > .top > .login > #open-1:checked ~ ul.ulaccount > li {
+            display: flex;
+            flex-flow: wrap wrap;
+            justify-content: center;
+            width: 50vw;
+            height: auto;
+            line-height: 290%;
+            background-color: #15171E;
+            transition: 500ms;
+            font-size: 16px;
+            font-weight: bold;
+            color: #FFFFFF;
+            transition: 500ms; }
+            header > .top > .login > #open-1:checked ~ ul.ulaccount > li > div.log-3 {
+              display: block;
+              width: 100%;
+              height: auto; }
+              header > .top > .login > #open-1:checked ~ ul.ulaccount > li > div.log-3 > a.logB {
+                width: 100%;
+                height: 100%;
+                background-color: #15171E;
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: center;
+                color: #FFFFFF;
+                text-decoration: none;
+                text-transform: capitalize;
+                gap: 6px;
+                align-items: center; }
+                header > .top > .login > #open-1:checked ~ ul.ulaccount > li > div.log-3 > a.logB > i {
+                  font-size: 150%;
+                  color: #148EFF; }
+                header > .top > .login > #open-1:checked ~ ul.ulaccount > li > div.log-3 > a.logB > h1 {
+                  font-size: 130%;
+                  font-family: "Courier New", Courier, monospace; }
+            header > .top > .login > #open-1:checked ~ ul.ulaccount > li > a {
+              display: none;
+              justify-content: center;
+              align-items: center;
+              gap: 6px;
+              width: 90%;
+              background-color: #15171E;
+              font-size: 90%;
+              color: #FFFFFF; }
+              header > .top > .login > #open-1:checked ~ ul.ulaccount > li > a:hover {
+                background-color: #3b3b3b; }
+            header > .top > .login > #open-1:checked ~ ul.ulaccount > li > ul {
+              width: 100%;
+              background-color: #15171E;
+              transition: 500ms;
+              position: absolute;
+              right: 0;
+              top: 48px;
+              display: flex;
+              flex-flow: column wrap;
+              z-index: 100; }
+              header > .top > .login > #open-1:checked ~ ul.ulaccount > li > ul > li:first-child {
+                justify-content: center; }
+              header > .top > .login > #open-1:checked ~ ul.ulaccount > li > ul > li.ulAaccount {
+                display: flex;
+                flex-flow: row wrap;
+                background-color: #23252B; }
+                header > .top > .login > #open-1:checked ~ ul.ulaccount > li > ul > li.ulAaccount > a.ulAaccount {
+                  width: 90%;
+                  height: 100%;
+                  background-color: #23252B;
+                  display: flex;
+                  flex-flow: row wrap;
+                  justify-content: start;
+                  color: #FFFFFF;
+                  text-decoration: none;
+                  text-transform: capitalize;
+                  gap: 6px;
+                  align-items: center;
+                  font-size: 110%; }
+                  header > .top > .login > #open-1:checked ~ ul.ulaccount > li > ul > li.ulAaccount > a.ulAaccount:hover {
+                    background-color: #3b3b3b; }
+                  header > .top > .login > #open-1:checked ~ ul.ulaccount > li > ul > li.ulAaccount > a.ulAaccount > i {
+                    font-size: 110%;
+                    font-weight: bolder;
+                    background-color: #2b2b2b;
+                    color: #FFFFFF; }
+                  header > .top > .login > #open-1:checked ~ ul.ulaccount > li > ul > li.ulAaccount > a.ulAaccount > h2 {
+                    font-size: 90%; }
+              header > .top > .login > #open-1:checked ~ ul.ulaccount > li > ul > li:last-child {
+                background-color: #23252B;
+                padding-bottom: 1%; }
+                header > .top > .login > #open-1:checked ~ ul.ulaccount > li > ul > li:last-child > a {
+                  background-color: #23252B; }
+              header > .top > .login > #open-1:checked ~ ul.ulaccount > li > ul > li {
+                display: flex;
+                flex-flow: row wrap;
+                gap: 6px;
+                width: inherit;
+                color: #FFFFFF; }
+                header > .top > .login > #open-1:checked ~ ul.ulaccount > li > ul > li > a {
+                  display: block;
+                  width: 90%;
+                  text-align: left;
+                  background-color: #15171E;
+                  text-decoration: none;
+                  font-size: 16px;
+                  line-height: 20px;
+                  padding: 10px;
+                  color: #FFFFFF;
+                  border-radius: 10px; }
+                  header > .top > .login > #open-1:checked ~ ul.ulaccount > li > ul > li > a:hover {
+                    background-color: #3b3b3b; }
+                header > .top > .login > #open-1:checked ~ ul.ulaccount > li > ul > li > a.login {
+                  width: 80%;
+                  text-align: center;
+                  background-color: #148EFF; }
+                  header > .top > .login > #open-1:checked ~ ul.ulaccount > li > ul > li > a.login:hover {
+                    background-color: #4ba6fc; }
+            header > .top > .login > #open-1:checked ~ ul.ulaccount > li:hover > ul {
+              display: block;
+              transition: 500ms; }
+            header > .top > .login > #open-1:checked ~ ul.ulaccount > li > i {
+              font-size: 20px;
+              background-color: #15171E;
+              color: #6b6b6b; }
+        header > .top > .login > #open-1:checked ~ label[for="close-1"] {
+          display: inline-block;
+          width: 25px;
+          height: 25px;
+          color: #FFFFFF;
+          position: absolute;
+          cursor: pointer;
+          right: 1;
+          top: 0;
+          font-size: 35px;
+          z-index: 101; }
+        header > .top > .login > #close-1:checked ~ ul.ulaccount {
+          display: none; }
+        header > .top > .login > #close-1:checked ~ label[for="open-1"] {
+          display: block; }
+        header > .top > .login > label[for="open-1"] {
+          display: block;
+          position: absolute;
+          top: 0;
+          right: 0;
+          margin-right: 1%;
+          width: 25px;
+          height: 20px;
+          font-size: 130%;
+          cursor: pointer; }
+  div.navbar {
+    width: 33%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: start;
+    background-color: #15171E;
+    height: 40px;
+    padding: 2% 1%;
+    position: absolute;
+    top: 10px;
+    left: 6px;
+    z-index: 101; }
+    div.navbar > nav {
+      display: none; }
+    div.navbar > #open:checked ~ label[for="open"] {
+      display: none; }
+    div.navbar > #open:checked ~ nav {
+      width: 50vw;
+      height: auto;
+      background-color: #15171E;
+      position: absolute;
+      top: 0;
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: space-between; }
+      div.navbar > #open:checked ~ nav > div.log-2 {
+        display: block;
+        width: 100%;
+        height: auto;
+        padding: 1%; }
+        div.navbar > #open:checked ~ nav > div.log-2 > a.logA {
+          width: 100%;
+          height: 100%;
+          background-color: #15171E;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: center;
+          color: #FFFFFF;
+          text-decoration: none;
+          text-transform: capitalize;
+          gap: 6px;
+          align-items: center; }
+          div.navbar > #open:checked ~ nav > div.log-2 > a.logA > i {
+            font-size: 150%;
+            color: #148EFF; }
+          div.navbar > #open:checked ~ nav > div.log-2 > a.logA > h1 {
+            font-size: 130%;
+            font-family: "Courier New", Courier, monospace; }
+      div.navbar > #open:checked ~ nav > div.menu {
+        width: 80%;
+        height: auto;
+        background-color: #15171E;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center; }
+        div.navbar > #open:checked ~ nav > div.menu > ul {
+          width: 99%;
+          height: auto;
+          background-color: #15171E;
+          display: flex;
+          flex-flow: column wrap;
+          justify-content: space-evenly; }
+          div.navbar > #open:checked ~ nav > div.menu > ul > li {
+            width: 80%;
+            height: auto;
+            padding-left: 2%;
+            position: relative;
+            background-color: #15171E;
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: center; }
+            div.navbar > #open:checked ~ nav > div.menu > ul > li > a {
+              display: block;
+              width: fit-content;
+              text-align: center;
+              line-height: 40px;
+              font-size: 80%;
+              color: #6b6b6b; }
+              div.navbar > #open:checked ~ nav > div.menu > ul > li > a > span {
+                display: inline-block;
+                vertical-align: baseline;
+                font-size: 90%; }
+            div.navbar > #open:checked ~ nav > div.menu > ul > li > ul {
+              display: none;
+              z-index: 100;
+              width: 30vw;
+              background-color: #15171E;
+              transition: 500ms;
+              position: absolute;
+              left: 50%;
+              top: 0; }
+              div.navbar > #open:checked ~ nav > div.menu > ul > li > ul > li {
+                width: 98%;
+                margin: 0 auto;
+                padding: 6px; }
+                div.navbar > #open:checked ~ nav > div.menu > ul > li > ul > li > a {
+                  display: block;
+                  width: 90%;
+                  border-radius: 10px;
+                  line-height: 20px;
+                  font-size: 14px;
+                  color: #6b6b6b;
+                  padding: 4px 10px; }
+                  div.navbar > #open:checked ~ nav > div.menu > ul > li > ul > li > a > span {
+                    display: block;
+                    width: fit-content;
+                    font-size: 12px; }
+                  div.navbar > #open:checked ~ nav > div.menu > ul > li > ul > li > a:hover {
+                    background-color: #3b3b3b;
+                    color: #FFFFFF; }
+                    div.navbar > #open:checked ~ nav > div.menu > ul > li > ul > li > a:hover > span {
+                      color: #6b6b6b; }
+            div.navbar > #open:checked ~ nav > div.menu > ul > li:hover {
+              background-color: #6b6b6b; }
+              div.navbar > #open:checked ~ nav > div.menu > ul > li:hover > a {
+                color: #FFFFFF; }
+              div.navbar > #open:checked ~ nav > div.menu > ul > li:hover > ul {
+                display: block; }
+          div.navbar > #open:checked ~ nav > div.menu > ul > li:last-child {
+            background-color: #15171E;
+            width: 80%; }
+            div.navbar > #open:checked ~ nav > div.menu > ul > li:last-child > a {
+              color: lawngreen;
+              font-weight: bold;
+              font-size: 85%; }
+              div.navbar > #open:checked ~ nav > div.menu > ul > li:last-child > a:hover {
+                color: #FFB400; }
+      div.navbar > #open:checked ~ nav > div.search {
+        width: 100%;
+        height: 40px;
+        background-color: #23252B;
+        display: none; }
+        div.navbar > #open:checked ~ nav > div.search:hover {
+          background-color: #3b3b3b; }
+        div.navbar > #open:checked ~ nav > div.search > i {
+          color: #FFFFFF;
+          font-size: 90%;
+          font-weight: bolder; }
+        div.navbar > #open:checked ~ nav > div.search:active > input {
+          display: block;
+          width: 100%;
+          height: 40px;
+          background-color: #FFB400; }
+        div.navbar > #open:checked ~ nav > div.search:active > i {
+          font-size: 90%;
+          font-weight: bold;
+          position: absolute;
+          left: 10px;
+          top: 13px;
+          z-index: 100; }
+        div.navbar > #open:checked ~ nav > div.search > input {
+          display: none;
+          width: 85vw;
+          height: 40px;
+          background-color: #3b3b3b;
+          color: #FFFFFF;
+          position: absolute;
+          left: 0;
+          top: 0;
+          border-radius: 5px;
+          outline: none;
+          padding: 10px 40px 10px 40px; }
+      div.navbar > #open:checked ~ nav > div.balance {
+        width: 80%;
+        height: auto;
+        background-color: #15171E;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center; }
+        div.navbar > #open:checked ~ nav > div.balance > ul {
+          width: 100%;
+          height: auto;
+          background-color: #15171E;
+          position: relative; }
+          div.navbar > #open:checked ~ nav > div.balance > ul > li {
+            width: inherit;
+            height: auto;
+            background-color: #15171E;
+            text-align: start; }
+            div.navbar > #open:checked ~ nav > div.balance > ul > li > a {
+              display: block;
+              font-size: 95%;
+              line-height: 40px;
+              color: #6b6b6b;
+              align-items: center; }
+            div.navbar > #open:checked ~ nav > div.balance > ul > li > ul {
+              display: none;
+              z-index: 100;
+              width: 20vw;
+              position: absolute;
+              right: 0;
+              top: 0;
+              background-color: #15171E; }
+              div.navbar > #open:checked ~ nav > div.balance > ul > li > ul > li {
+                width: inherit;
+                background-color: #15171E; }
+                div.navbar > #open:checked ~ nav > div.balance > ul > li > ul > li:hover > a {
+                  background-color: #3b3b3b;
+                  color: #FFFFFF; }
+                div.navbar > #open:checked ~ nav > div.balance > ul > li > ul > li > a {
+                  display: block;
+                  width: 90%;
+                  background-color: #15171E;
+                  color: #6b6b6b;
+                  font-size: 18px;
+                  line-height: 40px;
+                  text-transform: capitalize;
+                  border-radius: 6px;
+                  text-align: justify;
+                  padding-left: 10px; }
+            div.navbar > #open:checked ~ nav > div.balance > ul > li:hover > a {
+              background-color: #3b3b3b;
+              color: #FFFFFF; }
+            div.navbar > #open:checked ~ nav > div.balance > ul > li:hover > ul {
+              display: block; }
+    div.navbar > #open:checked ~ label[for="close"] {
+      display: inline-block;
+      width: 25px;
+      height: 25px;
+      color: #FFFFFF;
+      position: absolute;
+      cursor: pointer;
+      left: 1;
+      top: 0;
+      font-size: 35px;
+      z-index: 100; }
+    div.navbar > #close:checked ~ nav {
+      display: none; }
+    div.navbar > #close:checked ~ label[for="open"] {
+      display: block; }
+    div.navbar > label[for="open"] {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 2;
+      margin-right: 1%;
+      width: 25px;
+      height: 20px;
+      cursor: pointer;
+      z-index: 1000; }
+      div.navbar > label[for="open"] > div {
+        color: #FFFFFF;
+        background-color: #FFFFFF;
+        width: inherit;
+        height: 3px;
+        margin-top: 5px; }
+  div.search-1 {
+    width: 96vw;
+    height: 60px;
+    position: relative;
+    background-color: #23252B;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 2.5%; }
+    div.search-1:hover > input {
+      background-color: #4b4b4b; }
+    div.search-1 > i {
+      font-size: 90%;
+      font-weight: bold;
+      color: #FFFFFF;
+      position: absolute;
+      left: 3%;
+      z-index: 100; }
+    div.search-1 > input {
+      display: block;
+      width: 96vw;
+      height: 60px;
+      background-color: #23252B;
+      color: #FFFFFF;
+      position: absolute;
+      left: 2;
+      top: 0;
+      border-radius: 5px;
+      border: none;
+      padding: 8px 40px 10px 45px; } }
+
+@media screen and (max-width: 580px) {
+  header {
+    width: 100%;
+    height: 70px;
+    background-color: #15171E;
+    display: flex;
+    align-items: center;
+    flex-flow: row nowrap;
+    justify-content: space-between; }
+    header > .top {
+      width: 65%;
+      height: 40px;
+      background-color: #15171E;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+      position: absolute;
+      top: 6px;
+      right: 6px; }
+      header > .top > .logo {
+        width: 50%;
+        height: 100%;
+        background-color: #15171E; }
+        header > .top > .logo > a {
+          width: 100%;
+          height: 100%;
+          background-color: #15171E;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: start;
+          color: #FFFFFF;
+          text-transform: capitalize;
+          gap: 3px;
+          align-items: center; }
+          header > .top > .logo > a > i {
+            font-size: 140%;
+            color: #148EFF; }
+          header > .top > .logo > a > h1 {
+            font-size: 115%;
+            font-family: "Courier New", Courier, monospace; }
+      header > .top > .login {
+        width: 50%;
+        height: 100%;
+        background-color: #15171E;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: end;
+        position: relative; }
+        header > .top > .login > #Download {
+          display: none;
+          width: 45%; }
+        header > .top > .login > a {
+          display: none;
+          width: 25%;
+          height: 100%;
+          background-color: #15171E;
+          color: #FFFFFF;
+          text-decoration: none;
+          text-transform: capitalize;
+          gap: 6px;
+          align-items: center;
+          font-size: 90%; }
+          header > .top > .login > a:hover {
+            background-color: #3b3b3b; }
+          header > .top > .login > a > i {
+            font-size: 110%;
+            font-weight: bolder;
+            background-color: #15171E;
+            color: #6b6b6b; }
+          header > .top > .login > a > h2 {
+            font-size: 90%; }
+        header > .top > .login > ul.ulaccount {
+          display: none; }
+        header > .top > .login > #open-1:checked ~ ul.ulaccount {
+          display: block;
+          width: 50vw;
+          height: auto;
+          background-color: #15171E;
+          text-align: center;
+          position: relative;
+          transition: 500ms; }
+          header > .top > .login > #open-1:checked ~ ul.ulaccount > li {
+            display: flex;
+            flex-flow: wrap wrap;
+            justify-content: center;
+            width: 50vw;
+            height: auto;
+            line-height: 290%;
+            background-color: #15171E;
+            transition: 500ms;
+            font-size: 16px;
+            font-weight: bold;
+            color: #FFFFFF;
+            transition: 500ms; }
+            header > .top > .login > #open-1:checked ~ ul.ulaccount > li > div.log-3 {
+              display: block;
+              width: 100%;
+              height: auto; }
+              header > .top > .login > #open-1:checked ~ ul.ulaccount > li > div.log-3 > a.logB {
+                width: 100%;
+                height: 100%;
+                background-color: #15171E;
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: center;
+                color: #FFFFFF;
+                text-decoration: none;
+                text-transform: capitalize;
+                gap: 6px;
+                align-items: center; }
+                header > .top > .login > #open-1:checked ~ ul.ulaccount > li > div.log-3 > a.logB > i {
+                  font-size: 150%;
+                  color: #148EFF; }
+                header > .top > .login > #open-1:checked ~ ul.ulaccount > li > div.log-3 > a.logB > h1 {
+                  font-size: 130%;
+                  font-family: "Courier New", Courier, monospace; }
+            header > .top > .login > #open-1:checked ~ ul.ulaccount > li > a {
+              display: none;
+              justify-content: center;
+              align-items: center;
+              gap: 6px;
+              width: 90%;
+              background-color: #15171E;
+              font-size: 90%;
+              color: #FFFFFF; }
+              header > .top > .login > #open-1:checked ~ ul.ulaccount > li > a:hover {
+                background-color: #3b3b3b; }
+            header > .top > .login > #open-1:checked ~ ul.ulaccount > li > ul {
+              width: 100%;
+              background-color: #15171E;
+              transition: 500ms;
+              position: absolute;
+              right: 0;
+              top: 48px;
+              display: flex;
+              flex-flow: column wrap;
+              z-index: 100; }
+              header > .top > .login > #open-1:checked ~ ul.ulaccount > li > ul > li:first-child {
+                justify-content: center; }
+              header > .top > .login > #open-1:checked ~ ul.ulaccount > li > ul > li.ulAaccount {
+                display: flex;
+                flex-flow: row wrap;
+                background-color: #23252B; }
+                header > .top > .login > #open-1:checked ~ ul.ulaccount > li > ul > li.ulAaccount > a.ulAaccount {
+                  width: 90%;
+                  height: 100%;
+                  background-color: #23252B;
+                  display: flex;
+                  flex-flow: row wrap;
+                  justify-content: start;
+                  color: #FFFFFF;
+                  text-decoration: none;
+                  text-transform: capitalize;
+                  gap: 6px;
+                  align-items: center;
+                  font-size: 110%; }
+                  header > .top > .login > #open-1:checked ~ ul.ulaccount > li > ul > li.ulAaccount > a.ulAaccount:hover {
+                    background-color: #3b3b3b; }
+                  header > .top > .login > #open-1:checked ~ ul.ulaccount > li > ul > li.ulAaccount > a.ulAaccount > i {
+                    font-size: 110%;
+                    font-weight: bolder;
+                    background-color: #2b2b2b;
+                    color: #FFFFFF; }
+                  header > .top > .login > #open-1:checked ~ ul.ulaccount > li > ul > li.ulAaccount > a.ulAaccount > h2 {
+                    font-size: 90%; }
+              header > .top > .login > #open-1:checked ~ ul.ulaccount > li > ul > li:last-child {
+                background-color: #23252B;
+                padding-bottom: 1%; }
+                header > .top > .login > #open-1:checked ~ ul.ulaccount > li > ul > li:last-child > a {
+                  background-color: #23252B; }
+              header > .top > .login > #open-1:checked ~ ul.ulaccount > li > ul > li {
+                display: flex;
+                flex-flow: row wrap;
+                gap: 6px;
+                width: inherit;
+                color: #FFFFFF; }
+                header > .top > .login > #open-1:checked ~ ul.ulaccount > li > ul > li > a {
+                  display: block;
+                  width: 90%;
+                  text-align: left;
+                  background-color: #15171E;
+                  text-decoration: none;
+                  font-size: 16px;
+                  line-height: 20px;
+                  padding: 10px;
+                  color: #FFFFFF;
+                  border-radius: 10px; }
+                  header > .top > .login > #open-1:checked ~ ul.ulaccount > li > ul > li > a:hover {
+                    background-color: #3b3b3b; }
+                header > .top > .login > #open-1:checked ~ ul.ulaccount > li > ul > li > a.login {
+                  width: 80%;
+                  text-align: center;
+                  background-color: #148EFF; }
+                  header > .top > .login > #open-1:checked ~ ul.ulaccount > li > ul > li > a.login:hover {
+                    background-color: #4ba6fc; }
+            header > .top > .login > #open-1:checked ~ ul.ulaccount > li:hover > ul {
+              display: block;
+              transition: 500ms; }
+            header > .top > .login > #open-1:checked ~ ul.ulaccount > li > i {
+              font-size: 20px;
+              background-color: #15171E;
+              color: #6b6b6b; }
+        header > .top > .login > #open-1:checked ~ label[for="close-1"] {
+          display: inline-block;
+          width: 25px;
+          height: 25px;
+          color: #FFFFFF;
+          position: absolute;
+          cursor: pointer;
+          right: 1;
+          top: 0;
+          font-size: 35px;
+          z-index: 101; }
+        header > .top > .login > #close-1:checked ~ ul.ulaccount {
+          display: none; }
+        header > .top > .login > #close-1:checked ~ label[for="open-1"] {
+          display: block; }
+        header > .top > .login > label[for="open-1"] {
+          display: block;
+          position: absolute;
+          top: 0;
+          right: 0;
+          margin-right: 1%;
+          width: 25px;
+          height: 20px;
+          font-size: 130%;
+          cursor: pointer; }
+  div.navbar {
+    width: 33%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: start;
+    background-color: #15171E;
+    height: 40px;
+    padding: 2% 1%;
+    position: absolute;
+    top: 10px;
+    left: 6px;
+    z-index: 101; }
+    div.navbar > nav {
+      display: none; }
+    div.navbar > #open:checked ~ label[for="open"] {
+      display: none; }
+    div.navbar > #open:checked ~ nav {
+      width: 50vw;
+      height: auto;
+      background-color: #15171E;
+      position: absolute;
+      top: 0;
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: space-between; }
+      div.navbar > #open:checked ~ nav > div.log-2 {
+        display: block;
+        width: 100%;
+        height: auto;
+        padding: 1%; }
+        div.navbar > #open:checked ~ nav > div.log-2 > a.logA {
+          width: 100%;
+          height: 100%;
+          background-color: #15171E;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: center;
+          color: #FFFFFF;
+          text-decoration: none;
+          text-transform: capitalize;
+          gap: 6px;
+          align-items: center; }
+          div.navbar > #open:checked ~ nav > div.log-2 > a.logA > i {
+            font-size: 150%;
+            color: #148EFF; }
+          div.navbar > #open:checked ~ nav > div.log-2 > a.logA > h1 {
+            font-size: 130%;
+            font-family: "Courier New", Courier, monospace; }
+      div.navbar > #open:checked ~ nav > div.menu {
+        width: 80%;
+        height: auto;
+        background-color: #15171E;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center; }
+        div.navbar > #open:checked ~ nav > div.menu > ul {
+          width: 99%;
+          height: auto;
+          background-color: #15171E;
+          display: flex;
+          flex-flow: column wrap;
+          justify-content: space-evenly; }
+          div.navbar > #open:checked ~ nav > div.menu > ul > li {
+            width: 80%;
+            height: auto;
+            padding-left: 2%;
+            position: relative;
+            background-color: #15171E;
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: center; }
+            div.navbar > #open:checked ~ nav > div.menu > ul > li > a {
+              display: block;
+              width: fit-content;
+              text-align: center;
+              line-height: 40px;
+              font-size: 80%;
+              color: #6b6b6b; }
+              div.navbar > #open:checked ~ nav > div.menu > ul > li > a > span {
+                display: inline-block;
+                vertical-align: baseline;
+                font-size: 90%; }
+            div.navbar > #open:checked ~ nav > div.menu > ul > li > ul {
+              display: none;
+              z-index: 100;
+              width: 30vw;
+              background-color: #15171E;
+              transition: 500ms;
+              position: absolute;
+              left: 50%;
+              top: 0; }
+              div.navbar > #open:checked ~ nav > div.menu > ul > li > ul > li {
+                width: 98%;
+                margin: 0 auto;
+                padding: 6px; }
+                div.navbar > #open:checked ~ nav > div.menu > ul > li > ul > li > a {
+                  display: block;
+                  width: 90%;
+                  border-radius: 10px;
+                  line-height: 20px;
+                  font-size: 14px;
+                  color: #6b6b6b;
+                  padding: 4px 10px; }
+                  div.navbar > #open:checked ~ nav > div.menu > ul > li > ul > li > a > span {
+                    display: block;
+                    width: fit-content;
+                    font-size: 12px; }
+                  div.navbar > #open:checked ~ nav > div.menu > ul > li > ul > li > a:hover {
+                    background-color: #3b3b3b;
+                    color: #FFFFFF; }
+                    div.navbar > #open:checked ~ nav > div.menu > ul > li > ul > li > a:hover > span {
+                      color: #6b6b6b; }
+            div.navbar > #open:checked ~ nav > div.menu > ul > li:hover {
+              background-color: #6b6b6b; }
+              div.navbar > #open:checked ~ nav > div.menu > ul > li:hover > a {
+                color: #FFFFFF; }
+              div.navbar > #open:checked ~ nav > div.menu > ul > li:hover > ul {
+                display: block; }
+          div.navbar > #open:checked ~ nav > div.menu > ul > li:last-child {
+            background-color: #15171E;
+            width: 80%; }
+            div.navbar > #open:checked ~ nav > div.menu > ul > li:last-child > a {
+              color: lawngreen;
+              font-weight: bold;
+              font-size: 85%; }
+              div.navbar > #open:checked ~ nav > div.menu > ul > li:last-child > a:hover {
+                color: #FFB400; }
+      div.navbar > #open:checked ~ nav > div.search {
+        width: 100%;
+        height: 40px;
+        background-color: #23252B;
+        display: none; }
+        div.navbar > #open:checked ~ nav > div.search:hover {
+          background-color: #3b3b3b; }
+        div.navbar > #open:checked ~ nav > div.search > i {
+          color: #FFFFFF;
+          font-size: 90%;
+          font-weight: bolder; }
+        div.navbar > #open:checked ~ nav > div.search:active > input {
+          display: block;
+          width: 100%;
+          height: 40px;
+          background-color: #FFB400; }
+        div.navbar > #open:checked ~ nav > div.search:active > i {
+          font-size: 90%;
+          font-weight: bold;
+          position: absolute;
+          left: 10px;
+          top: 13px;
+          z-index: 100; }
+        div.navbar > #open:checked ~ nav > div.search > input {
+          display: none;
+          width: 85vw;
+          height: 40px;
+          background-color: #3b3b3b;
+          color: #FFFFFF;
+          position: absolute;
+          left: 0;
+          top: 0;
+          border-radius: 5px;
+          outline: none;
+          padding: 10px 40px 10px 40px; }
+      div.navbar > #open:checked ~ nav > div.balance {
+        width: 80%;
+        height: auto;
+        background-color: #15171E;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center; }
+        div.navbar > #open:checked ~ nav > div.balance > ul {
+          width: 100%;
+          height: auto;
+          background-color: #15171E;
+          position: relative; }
+          div.navbar > #open:checked ~ nav > div.balance > ul > li {
+            width: inherit;
+            height: auto;
+            background-color: #15171E;
+            text-align: start; }
+            div.navbar > #open:checked ~ nav > div.balance > ul > li > a {
+              display: block;
+              font-size: 95%;
+              line-height: 40px;
+              color: #6b6b6b;
+              align-items: center; }
+            div.navbar > #open:checked ~ nav > div.balance > ul > li > ul {
+              display: none;
+              z-index: 100;
+              width: 20vw;
+              position: absolute;
+              right: 0;
+              top: 0;
+              background-color: #15171E; }
+              div.navbar > #open:checked ~ nav > div.balance > ul > li > ul > li {
+                width: inherit;
+                background-color: #15171E; }
+                div.navbar > #open:checked ~ nav > div.balance > ul > li > ul > li:hover > a {
+                  background-color: #3b3b3b;
+                  color: #FFFFFF; }
+                div.navbar > #open:checked ~ nav > div.balance > ul > li > ul > li > a {
+                  display: block;
+                  width: 90%;
+                  background-color: #15171E;
+                  color: #6b6b6b;
+                  font-size: 18px;
+                  line-height: 40px;
+                  text-transform: capitalize;
+                  border-radius: 6px;
+                  text-align: justify;
+                  padding-left: 10px; }
+            div.navbar > #open:checked ~ nav > div.balance > ul > li:hover > a {
+              background-color: #3b3b3b;
+              color: #FFFFFF; }
+            div.navbar > #open:checked ~ nav > div.balance > ul > li:hover > ul {
+              display: block; }
+    div.navbar > #open:checked ~ label[for="close"] {
+      display: inline-block;
+      width: 25px;
+      height: 25px;
+      color: #FFFFFF;
+      position: absolute;
+      cursor: pointer;
+      left: 1;
+      top: 0;
+      font-size: 35px;
+      z-index: 100; }
+    div.navbar > #close:checked ~ nav {
+      display: none; }
+    div.navbar > #close:checked ~ label[for="open"] {
+      display: block; }
+    div.navbar > label[for="open"] {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 2;
+      margin-right: 1%;
+      width: 25px;
+      height: 20px;
+      cursor: pointer;
+      z-index: 1000; }
+      div.navbar > label[for="open"] > div {
+        color: #FFFFFF;
+        background-color: #FFFFFF;
+        width: inherit;
+        height: 3px;
+        margin-top: 5px; }
+  div.search-1 {
+    width: 96vw;
+    height: 60px;
+    position: relative;
+    background-color: #23252B;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 5%; }
+    div.search-1:hover > input {
+      background-color: #4b4b4b; }
+    div.search-1 > i {
+      font-size: 90%;
+      font-weight: bold;
+      color: #FFFFFF;
+      position: absolute;
+      left: 4%;
+      z-index: 100; }
+    div.search-1 > input {
+      display: block;
+      width: 96vw;
+      height: 60px;
+      background-color: #23252B;
+      color: #FFFFFF;
+      position: absolute;
+      left: 2;
+      top: 0;
+      border-radius: 5px;
+      border: none;
+      padding: 8px 40px 10px 45px; } }
+
+@media screen and (min-width: 1201px) {
+  div.slider-1 {
+    width: 100%;
+    height: 500px;
+    margin-top: 10px;
+    margin-bottom: 1%;
+    background-color: #15171E;
+    padding: 20px; }
+    div.slider-1 .swiper {
+      width: 100%;
+      height: 100%; }
+    div.slider-1 .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #15171E;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 10px;
+      color: #FFFFFF; }
+    div.slider-1 .swiper-slide img.lgxl {
+      display: block;
+      width: 100%;
+      height: 90%;
+      object-fit: cover; }
+    div.slider-1 div.swiper-slide > div.lgxl {
+      position: absolute;
+      left: 6%; }
+      div.slider-1 div.swiper-slide > div.lgxl > img {
+        display: block;
+        width: 320px;
+        height: 160px;
+        object-fit: cover; }
+      div.slider-1 div.swiper-slide > div.lgxl > h3 {
+        width: 320px;
+        padding: 3%; }
+      div.slider-1 div.swiper-slide > div.lgxl > a {
+        display: block;
+        padding: 4%;
+        background-color: #148EFF;
+        color: #FFFFFF;
+        text-transform: capitalize;
+        font-weight: bold;
+        border-radius: 5px; }
+        div.slider-1 div.swiper-slide > div.lgxl > a:hover {
+          border: 1px solid white; }
+  div.slider-2 {
+    width: 100%;
+    height: 500px;
+    margin-top: 10px;
+    margin-bottom: 1%;
+    background-color: #15171E;
+    padding: 20px; }
+    div.slider-2 .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    div.slider-2 .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+    div.slider-2 .swiper {
+      width: 100%;
+      height: 100%; } }
+
+@media screen and (min-width: 943px) and (max-width: 1200px) {
+  div.slider-1 {
+    width: 100%;
+    height: 500px;
+    margin-top: 10px;
+    margin-bottom: 1%;
+    background-color: #15171E;
+    padding: 20px; }
+    div.slider-1 .swiper {
+      width: 100%;
+      height: 100%; }
+    div.slider-1 .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #15171E;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 10px;
+      color: #FFFFFF; }
+    div.slider-1 .swiper-slide img.lgxl {
+      display: block;
+      width: 100%;
+      height: 90%;
+      object-fit: cover; }
+    div.slider-1 div.swiper-slide > div.lgxl {
+      position: absolute;
+      left: 6%; }
+      div.slider-1 div.swiper-slide > div.lgxl > img {
+        display: block;
+        width: 320px;
+        height: 160px;
+        object-fit: cover; }
+      div.slider-1 div.swiper-slide > div.lgxl > h3 {
+        width: 320px;
+        padding: 3%; }
+      div.slider-1 div.swiper-slide > div.lgxl > a {
+        display: block;
+        padding: 4%;
+        background-color: #148EFF;
+        color: #FFFFFF;
+        text-transform: capitalize;
+        font-weight: bold;
+        border-radius: 5px; }
+        div.slider-1 div.swiper-slide > div.lgxl > a:hover {
+          border: 1px solid white; }
+  div.slider-2 {
+    width: 100%;
+    height: 500px;
+    margin-top: 10px;
+    margin-bottom: 1%;
+    background-color: #15171E;
+    padding: 20px; }
+    div.slider-2 .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    div.slider-2 .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+    div.slider-2 .swiper {
+      width: 100%;
+      height: 100%; } }
+
+@media screen and (min-width: 769px) and (max-width: 942px) {
+  div.slider-1 {
+    width: 100%;
+    height: 500px;
+    margin-top: 10px;
+    margin-bottom: 1%;
+    background-color: #15171E;
+    padding: 20px; }
+    div.slider-1 .swiper {
+      width: 100%;
+      height: 100%; }
+    div.slider-1 .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #15171E;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 10px;
+      color: #FFFFFF; }
+    div.slider-1 .swiper-slide img.lgxl {
+      display: none;
+      width: 100%;
+      height: 90%;
+      object-fit: cover; }
+    div.slider-1 .swiper-slide img.mdsmxs {
+      display: block;
+      width: 100%;
+      height: 90%;
+      object-fit: cover; }
+    div.slider-1 div.swiper-slide > div.lgxl {
+      display: none;
+      position: absolute;
+      left: 50%; }
+      div.slider-1 div.swiper-slide > div.lgxl > img {
+        display: block;
+        width: 320px;
+        height: 160px;
+        object-fit: cover; }
+      div.slider-1 div.swiper-slide > div.lgxl > h3 {
+        width: 320px;
+        padding: 3%; }
+      div.slider-1 div.swiper-slide > div.lgxl > a {
+        display: block;
+        padding: 4%;
+        background-color: #148EFF;
+        color: #FFFFFF;
+        text-transform: capitalize;
+        font-weight: bold;
+        border-radius: 5px; }
+        div.slider-1 div.swiper-slide > div.lgxl > a:hover {
+          border: 1px solid white; }
+    div.slider-1 div.swiper-slide > div.mdsmxs {
+      display: block;
+      position: absolute;
+      left: 30%; }
+      div.slider-1 div.swiper-slide > div.mdsmxs > img {
+        display: block;
+        width: 320px;
+        height: 160px;
+        object-fit: cover; }
+      div.slider-1 div.swiper-slide > div.mdsmxs > h3 {
+        width: 320px;
+        padding: 3%; }
+      div.slider-1 div.swiper-slide > div.mdsmxs > a {
+        display: block;
+        padding: 4%;
+        background-color: #148EFF;
+        color: #FFFFFF;
+        text-transform: capitalize;
+        font-weight: bold;
+        border-radius: 5px; }
+        div.slider-1 div.swiper-slide > div.mdsmxs > a:hover {
+          border: 1px solid white; }
+  div.slider-2 {
+    width: 100%;
+    height: 500px;
+    margin-top: 10px;
+    margin-bottom: 1%;
+    background-color: #15171E;
+    padding: 20px; }
+    div.slider-2 .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    div.slider-2 .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+    div.slider-2 .swiper {
+      width: 100%;
+      height: 100%; } }
+
+@media screen and (min-width: 581px) and (max-width: 768px) {
+  div.slider-1 {
+    width: 100%;
+    height: 500px;
+    margin-top: 10px;
+    margin-bottom: 1%;
+    background-color: #15171E;
+    padding: 20px; }
+    div.slider-1 .swiper {
+      width: 100%;
+      height: 100%; }
+    div.slider-1 .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #15171E;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 10px;
+      color: #FFFFFF; }
+    div.slider-1 .swiper-slide img.lgxl {
+      display: none;
+      width: 100%;
+      height: 90%;
+      object-fit: cover; }
+    div.slider-1 .swiper-slide img.mdsmxs {
+      display: block;
+      width: 100%;
+      height: 90%;
+      object-fit: cover; }
+    div.slider-1 div.swiper-slide > div.lgxl {
+      display: none;
+      position: absolute;
+      left: 50%; }
+      div.slider-1 div.swiper-slide > div.lgxl > img {
+        display: block;
+        width: 320px;
+        height: 160px;
+        object-fit: cover; }
+      div.slider-1 div.swiper-slide > div.lgxl > h3 {
+        width: 320px;
+        padding: 3%; }
+      div.slider-1 div.swiper-slide > div.lgxl > a {
+        display: block;
+        padding: 4%;
+        background-color: #148EFF;
+        color: #FFFFFF;
+        text-transform: capitalize;
+        font-weight: bold;
+        border-radius: 5px; }
+        div.slider-1 div.swiper-slide > div.lgxl > a:hover {
+          border: 1px solid white; }
+    div.slider-1 div.swiper-slide > div.mdsmxs {
+      display: block;
+      position: absolute;
+      left: 25%; }
+      div.slider-1 div.swiper-slide > div.mdsmxs > img {
+        display: block;
+        width: 320px;
+        height: 160px;
+        object-fit: cover; }
+      div.slider-1 div.swiper-slide > div.mdsmxs > h3 {
+        width: 320px;
+        padding: 3%; }
+      div.slider-1 div.swiper-slide > div.mdsmxs > a {
+        display: block;
+        padding: 4%;
+        background-color: #148EFF;
+        color: #FFFFFF;
+        text-transform: capitalize;
+        font-weight: bold;
+        border-radius: 5px; }
+        div.slider-1 div.swiper-slide > div.mdsmxs > a:hover {
+          border: 1px solid white; }
+  div.slider-2 {
+    width: 100%;
+    height: 500px;
+    margin-top: 10px;
+    margin-bottom: 1%;
+    background-color: #15171E;
+    padding: 20px; }
+    div.slider-2 .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    div.slider-2 .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+    div.slider-2 .swiper {
+      width: 100%;
+      height: 100%; } }
+
+@media screen and (max-width: 580px) {
+  div.slider-1 {
+    width: 100%;
+    height: 500px;
+    margin-top: 10px;
+    margin-bottom: 1%;
+    background-color: #15171E;
+    padding: 20px; }
+    div.slider-1 .swiper {
+      width: 100%;
+      height: 100%; }
+    div.slider-1 .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #15171E;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 10px;
+      color: #FFFFFF; }
+    div.slider-1 .swiper-slide img.lgxl {
+      display: none;
+      width: 100%;
+      height: 90%;
+      object-fit: cover; }
+    div.slider-1 .swiper-slide img.mdsmxs {
+      display: block;
+      width: 100%;
+      height: 90%;
+      object-fit: cover; }
+    div.slider-1 div.swiper-slide > div.lgxl {
+      display: none;
+      position: absolute;
+      left: 50%; }
+      div.slider-1 div.swiper-slide > div.lgxl > img {
+        display: block;
+        width: 320px;
+        height: 160px;
+        object-fit: cover; }
+      div.slider-1 div.swiper-slide > div.lgxl > h3 {
+        width: 320px;
+        padding: 3%; }
+      div.slider-1 div.swiper-slide > div.lgxl > a {
+        display: block;
+        padding: 4%;
+        background-color: #148EFF;
+        color: #FFFFFF;
+        text-transform: capitalize;
+        font-weight: bold;
+        border-radius: 5px; }
+        div.slider-1 div.swiper-slide > div.lgxl > a:hover {
+          border: 1px solid white; }
+    div.slider-1 div.swiper-slide > div.mdsmxs {
+      display: block;
+      position: absolute;
+      left: 15%; }
+      div.slider-1 div.swiper-slide > div.mdsmxs > img {
+        display: block;
+        width: 90%;
+        height: 160px;
+        object-fit: cover; }
+      div.slider-1 div.swiper-slide > div.mdsmxs > h3 {
+        width: 320px;
+        padding: 2%; }
+      div.slider-1 div.swiper-slide > div.mdsmxs > a {
+        width: fit-content;
+        display: block;
+        padding: 4%;
+        margin: 0 auto;
+        background-color: #148EFF;
+        color: #FFFFFF;
+        text-transform: capitalize;
+        font-weight: bold;
+        border-radius: 5px; }
+        div.slider-1 div.swiper-slide > div.mdsmxs > a:hover {
+          border: 1px solid white; }
+  div.slider-2 {
+    width: 100%;
+    height: 500px;
+    margin-top: 10px;
+    margin-bottom: 1%;
+    background-color: #15171E;
+    padding: 20px; }
+    div.slider-2 .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    div.slider-2 .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+    div.slider-2 .swiper {
+      width: 100%;
+      height: 100%; } }
+
+@media screen and (min-width: 1201px) {
+  .product {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    background-color: #15171E;
+    margin-bottom: 3%; }
+    .product > h3 {
+      width: 100%;
+      color: #FFFFFF;
+      padding: 10px;
+      padding-left: 3%;
+      font-weight: bolder;
+      font-size: calc(80% * 2); }
+    .product > div {
+      width: 23%;
+      height: 450px;
+      background-color: #23252B;
+      border-radius: 8px;
+      margin: 1% 0;
+      transition: 500ms; }
+      .product > div > a {
+        display: block;
+        width: 100%;
+        height: inherit;
+        text-align: justify;
+        transition: 500ms; }
+        .product > div > a:hover {
+          background-color: #6b6b6b; }
+          .product > div > a:hover > span {
+            padding-top: 0; }
+          .product > div > a:hover > h4 {
+            padding-top: 0; }
+        .product > div > a > img {
+          width: 100%;
+          height: 45%;
+          margin-bottom: 5%;
+          border-radius: 8px; }
+        .product > div > a > span {
+          display: block;
+          color: #FFFFFF;
+          width: 70%;
+          padding: 1%;
+          padding-left: 10%;
+          font-size: 12px; }
+        .product > div > a > h4 {
+          color: #FFFFFF;
+          width: 70%;
+          padding: 1%;
+          padding-left: 10%; }
+        .product > div > a > span.yellow {
+          color: #FFB400;
+          font-size: 14px; } }
+
+@media screen and (min-width: 943px) and (max-width: 1200px) {
+  .product {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    background-color: #15171E;
+    margin-bottom: 3%; }
+    .product > h3 {
+      width: 100%;
+      color: #FFFFFF;
+      padding: 10px;
+      padding-left: 3%;
+      font-weight: bolder;
+      font-size: calc(80% * 2); }
+    .product > div {
+      width: 33%;
+      height: 450px;
+      background-color: #23252B;
+      border-radius: 8px;
+      margin: 1% 0;
+      transition: 500ms; }
+      .product > div > a {
+        display: block;
+        width: 100%;
+        height: inherit;
+        text-align: justify;
+        transition: 500ms; }
+        .product > div > a:hover {
+          background-color: #6b6b6b; }
+          .product > div > a:hover > span {
+            padding-top: 0; }
+          .product > div > a:hover > h4 {
+            padding-top: 0; }
+        .product > div > a > img {
+          width: 100%;
+          height: 45%;
+          margin-bottom: 5%;
+          border-radius: 8px; }
+        .product > div > a > span {
+          display: block;
+          color: #FFFFFF;
+          width: 80%;
+          padding: 1%;
+          padding-left: 10%;
+          font-size: 12px; }
+        .product > div > a > h4 {
+          color: #FFFFFF;
+          width: 80%;
+          padding: 1%;
+          padding-left: 10%; }
+        .product > div > a > span.yellow {
+          color: #FFB400;
+          font-size: 14px; } }
+
+@media screen and (min-width: 769px) and (max-width: 942px) {
+  .product {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    background-color: #15171E;
+    margin-bottom: 3%; }
+    .product > h3 {
+      width: 100%;
+      color: #FFFFFF;
+      padding: 10px;
+      padding-left: 3%;
+      font-weight: bolder;
+      font-size: calc(80% * 2); }
+    .product > div {
+      width: 33%;
+      height: 450px;
+      background-color: #23252B;
+      border-radius: 8px;
+      margin: 1% 0;
+      transition: 500ms; }
+      .product > div > a {
+        display: block;
+        width: 100%;
+        height: inherit;
+        text-align: justify;
+        transition: 500ms; }
+        .product > div > a:hover {
+          background-color: #6b6b6b; }
+          .product > div > a:hover > span {
+            padding-top: 0; }
+          .product > div > a:hover > h4 {
+            padding-top: 0; }
+        .product > div > a > img {
+          width: 100%;
+          height: 45%;
+          margin-bottom: 5%;
+          border-radius: 8px; }
+        .product > div > a > span {
+          display: block;
+          color: #FFFFFF;
+          width: 80%;
+          padding: 1%;
+          padding-left: 10%;
+          font-size: 12px; }
+        .product > div > a > h4 {
+          color: #FFFFFF;
+          width: 80%;
+          padding: 1%;
+          padding-left: 10%; }
+        .product > div > a > span.yellow {
+          color: #FFB400;
+          font-size: 14px; } }
+
+@media screen and (min-width: 581px) and (max-width: 768px) {
+  .product {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    background-color: #15171E;
+    margin-bottom: 3%; }
+    .product > h3 {
+      width: 100%;
+      color: #FFFFFF;
+      padding: 10px;
+      padding-left: 3%;
+      font-weight: bolder;
+      font-size: calc(80% * 2); }
+    .product > div {
+      width: 43%;
+      height: 450px;
+      background-color: #23252B;
+      border-radius: 8px;
+      margin: 1% 0;
+      transition: 500ms; }
+      .product > div > a {
+        display: block;
+        width: 100%;
+        height: inherit;
+        text-align: justify;
+        transition: 500ms; }
+        .product > div > a:hover {
+          background-color: #6b6b6b; }
+          .product > div > a:hover > span {
+            padding-top: 0; }
+          .product > div > a:hover > h4 {
+            padding-top: 0; }
+        .product > div > a > img {
+          width: 100%;
+          height: 45%;
+          margin-bottom: 5%;
+          border-radius: 8px; }
+        .product > div > a > span {
+          display: block;
+          color: #FFFFFF;
+          width: 80%;
+          padding: 1%;
+          padding-left: 10%;
+          font-size: 12px; }
+        .product > div > a > h4 {
+          color: #FFFFFF;
+          width: 80%;
+          padding: 1%;
+          padding-left: 10%; }
+        .product > div > a > span.yellow {
+          color: #FFB400;
+          font-size: 14px; } }
+
+@media screen and (max-width: 580px) {
+  .product {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    background-color: #15171E;
+    margin-bottom: 3%; }
+    .product > h3 {
+      width: 100%;
+      color: #FFFFFF;
+      padding: 10px;
+      padding-left: 3%;
+      font-weight: bolder;
+      font-size: calc(80% * 2); }
+    .product > div {
+      width: 80%;
+      height: 450px;
+      background-color: #23252B;
+      border-radius: 8px;
+      margin: 1% 0;
+      transition: 500ms; }
+      .product > div > a {
+        display: block;
+        width: 100%;
+        height: inherit;
+        text-align: justify;
+        transition: 500ms; }
+        .product > div > a:hover {
+          background-color: #6b6b6b; }
+          .product > div > a:hover > span {
+            padding-top: 0; }
+          .product > div > a:hover > h4 {
+            padding-top: 0; }
+        .product > div > a > img {
+          width: 100%;
+          height: 45%;
+          margin-bottom: 5%;
+          border-radius: 8px; }
+        .product > div > a > span {
+          display: block;
+          color: #FFFFFF;
+          width: 80%;
+          padding: 1%;
+          padding-left: 10%;
+          font-size: 12px; }
+        .product > div > a > h4 {
+          color: #FFFFFF;
+          width: 80%;
+          padding: 1%;
+          padding-left: 10%; }
+        .product > div > a > span.yellow {
+          color: #FFB400;
+          font-size: 14px; } }
+
+@media screen and (min-width: 1201px) {
+  footer {
+    width: 100%;
+    height: auto;
+    background-color: #15171E; }
+    footer > div.adventure {
+      width: 100%;
+      height: 450px;
+      background-color: magenta;
+      position: relative; }
+      footer > div.adventure > img {
+        width: inherit;
+        height: inherit; }
+      footer > div.adventure > div.image {
+        width: 40%;
+        height: 280px;
+        position: absolute;
+        top: 15%;
+        left: 6%; }
+        footer > div.adventure > div.image > img {
+          width: 100%;
+          height: 100%; }
+      footer > div.adventure > div.mobile {
+        width: 54%;
+        height: inherit;
+        position: absolute;
+        right: 0;
+        top: 0;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: start;
+        row-gap: 7%; }
+        footer > div.adventure > div.mobile > h2 {
+          margin-top: 10%;
+          width: fit-content;
+          color: #FFFFFF;
+          font-size: 40px;
+          padding: 1%; }
+        footer > div.adventure > div.mobile > h6 {
+          width: fit-content;
+          color: #FFFFFF;
+          font-size: 20px;
+          padding: 1%; }
+        footer > div.adventure > div.mobile > div.tagA {
+          width: 100%;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: center;
+          padding-left: 11%;
+          gap: 5%; }
+          footer > div.adventure > div.mobile > div.tagA > a:first-child {
+            display: block;
+            width: fit-content;
+            border-radius: 6px;
+            padding: 0 10%;
+            background-color: #148EFF;
+            color: #FFFFFF;
+            line-height: 70px;
+            font-size: 25px;
+            transition: 500ms; }
+            footer > div.adventure > div.mobile > div.tagA > a:first-child:hover {
+              transition: 500ms;
+              border: 1px solid #FFFFFF; }
+          footer > div.adventure > div.mobile > div.tagA > a:last-child {
+            display: block;
+            width: fit-content;
+            border-radius: 6px;
+            padding: 0 4%;
+            background-color: #23252B;
+            color: #FFFFFF;
+            line-height: 70px;
+            font-size: 22px;
+            transition: 500ms; }
+            footer > div.adventure > div.mobile > div.tagA > a:last-child:hover {
+              transition: 500ms;
+              border: 1px solid #6b6b6b; }
+        footer > div.adventure > div.mobile > div.text {
+          width: 100%;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: start;
+          padding-left: 11%;
+          gap: 1%; }
+          footer > div.adventure > div.mobile > div.text > span {
+            width: fit-content;
+            color: #FFFFFF;
+            font-size: 17px; }
+          footer > div.adventure > div.mobile > div.text > a {
+            width: fit-content;
+            color: #148EFF;
+            text-decoration: underline;
+            font-size: 17px;
+            transition: 500ms; }
+            footer > div.adventure > div.mobile > div.text > a:hover {
+              transition: 500ms;
+              color: #FFB400; }
+    footer > div.about {
+      width: 100%;
+      height: auto;
+      padding-top: 5%;
+      padding-bottom: 8%;
+      display: flex;
+      flex-flow: column wrap;
+      background-color: #15171E;
+      align-items: center; }
+      footer > div.about > a.En {
+        background-color: #15171E;
+        display: block;
+        color: #6b6b6b;
+        width: fit-content;
+        font-size: 20px;
+        padding: 1%; }
+        footer > div.about > a.En:hover {
+          color: #FFFFFF; }
+      footer > div.about > a.logo {
+        background-color: #15171E;
+        display: block;
+        color: #FFFFFF;
+        width: auto;
+        text-align: center;
+        font-size: 30px;
+        padding: 1%; }
+        footer > div.about > a.logo > i {
+          color: #148EFF;
+          font-size: 38px; }
+        footer > div.about > a.logo > span {
+          color: #FFFFFF; }
+      footer > div.about > div {
+        width: 90%;
+        text-align: center;
+        background-color: #15171E; }
+        footer > div.about > div > ul {
+          width: 100%;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: center;
+          background-color: #15171E; }
+          footer > div.about > div > ul > li {
+            background-color: #15171E;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: center;
+            width: auto; }
+            footer > div.about > div > ul > li > span {
+              color: #6b6b6b;
+              font-weight: bolder; }
+            footer > div.about > div > ul > li > a {
+              display: inline-block;
+              text-align: center;
+              text-transform: capitalize;
+              width: fit-content;
+              font-size: 14px;
+              color: #6b6b6b;
+              padding: 10px;
+              background-color: #15171E; }
+              footer > div.about > div > ul > li > a:hover {
+                color: #FFFFFF; }
+        footer > div.about > div > div.fil {
+          width: 100%;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: center;
+          background-color: #15171E;
+          gap: 4%;
+          padding: 2%; }
+          footer > div.about > div > div.fil > a {
+            display: inline-block;
+            text-align: center;
+            font-size: 36px;
+            color: #6b6b6b; }
+            footer > div.about > div > div.fil > a:hover {
+              color: #FFFFFF; }
+      footer > div.about > span {
+        display: flex;
+        justify-content: center;
+        width: 90%;
+        font-size: 18px;
+        color: #6b6b6b;
+        margin: 3%;
+        background-color: #15171E; }
+        footer > div.about > span > a {
+          display: block;
+          color: #148EFF;
+          font-size: 18px;
+          text-decoration: underline; }
+          footer > div.about > span > a:hover {
+            color: #FFB400; }
+            footer > div.about > span > a:hover > i {
+              color: #FFB400; }
+          footer > div.about > span > a > i {
+            color: #148EFF;
+            font-size: 19px; }
+      footer > div.about > div.last {
+        width: 90%;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        background-color: #15171E; }
+        footer > div.about > div.last > span {
+          width: 100%;
+          font-size: 14px;
+          color: #6b6b6b; }
+          footer > div.about > div.last > span > a {
+            display: inline-block;
+            color: #9b9b9b;
+            font-size: 14px;
+            text-decoration: underline; }
+            footer > div.about > div.last > span > a:hover {
+              color: #FFFFFF; } }
+
+@media screen and (min-width: 943px) and (max-width: 1200px) {
+  footer {
+    width: 100%;
+    height: auto;
+    background-color: #15171E; }
+    footer > div.adventure {
+      width: 100%;
+      height: 450px;
+      position: relative; }
+      footer > div.adventure > img {
+        width: inherit;
+        height: inherit; }
+      footer > div.adventure > div.image {
+        width: calc(35% - 7%);
+        height: calc(44% - 5%);
+        position: absolute;
+        top: 15%;
+        left: 6%; }
+        footer > div.adventure > div.image > img {
+          width: 100%;
+          height: 100%; }
+      footer > div.adventure > div.mobile {
+        width: calc(59% + 7%);
+        height: inherit;
+        position: absolute;
+        right: 0;
+        top: 0;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: start;
+        row-gap: 7%; }
+        footer > div.adventure > div.mobile > h2 {
+          margin-top: 10%;
+          width: fit-content;
+          color: #FFFFFF;
+          font-size: 40px;
+          padding: 1%; }
+        footer > div.adventure > div.mobile > h6 {
+          width: fit-content;
+          color: #FFFFFF;
+          font-size: 20px;
+          padding: 1%; }
+        footer > div.adventure > div.mobile > div.tagA {
+          width: 100%;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: center;
+          padding-left: 11%;
+          gap: 5%; }
+          footer > div.adventure > div.mobile > div.tagA > a:first-child {
+            display: block;
+            width: fit-content;
+            border-radius: 6px;
+            padding: 0 10%;
+            background-color: #148EFF;
+            color: #FFFFFF;
+            line-height: 70px;
+            font-size: 25px;
+            transition: 500ms; }
+            footer > div.adventure > div.mobile > div.tagA > a:first-child:hover {
+              transition: 500ms;
+              border: 1px solid #FFFFFF; }
+          footer > div.adventure > div.mobile > div.tagA > a:last-child {
+            display: block;
+            width: fit-content;
+            border-radius: 6px;
+            padding: 0 4%;
+            background-color: #23252B;
+            color: #FFFFFF;
+            line-height: 70px;
+            font-size: 22px;
+            transition: 500ms; }
+            footer > div.adventure > div.mobile > div.tagA > a:last-child:hover {
+              transition: 500ms;
+              border: 1px solid #6b6b6b; }
+        footer > div.adventure > div.mobile > div.text {
+          width: 100%;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: start;
+          padding-left: 11%;
+          gap: 1%; }
+          footer > div.adventure > div.mobile > div.text > span {
+            width: fit-content;
+            color: #FFFFFF;
+            font-size: 17px; }
+          footer > div.adventure > div.mobile > div.text > a {
+            width: fit-content;
+            color: #148EFF;
+            text-decoration: underline;
+            font-size: 17px;
+            transition: 500ms; }
+            footer > div.adventure > div.mobile > div.text > a:hover {
+              transition: 500ms;
+              color: #FFB400; }
+    footer > div.about {
+      width: 100%;
+      height: auto;
+      padding-top: 5%;
+      padding-bottom: 8%;
+      display: flex;
+      flex-flow: column wrap;
+      background-color: #15171E;
+      align-items: center; }
+      footer > div.about > a.En {
+        background-color: #15171E;
+        display: block;
+        color: #6b6b6b;
+        width: fit-content;
+        font-size: 20px;
+        padding: 1%; }
+        footer > div.about > a.En:hover {
+          color: #FFFFFF; }
+      footer > div.about > a.logo {
+        background-color: #15171E;
+        display: block;
+        color: #FFFFFF;
+        width: auto;
+        text-align: center;
+        font-size: 30px;
+        padding: 1%; }
+        footer > div.about > a.logo > i {
+          color: #148EFF;
+          font-size: 38px; }
+        footer > div.about > a.logo > span {
+          color: #FFFFFF; }
+      footer > div.about > div {
+        width: 90%;
+        text-align: center;
+        background-color: #15171E; }
+        footer > div.about > div > ul {
+          width: 100%;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: center;
+          background-color: #15171E; }
+          footer > div.about > div > ul > li {
+            background-color: #15171E;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: center;
+            width: auto; }
+            footer > div.about > div > ul > li > span {
+              color: #6b6b6b;
+              font-weight: bolder; }
+            footer > div.about > div > ul > li > a {
+              display: inline-block;
+              text-align: center;
+              text-transform: capitalize;
+              width: fit-content;
+              font-size: 14px;
+              color: #6b6b6b;
+              padding: 10px;
+              background-color: #15171E; }
+              footer > div.about > div > ul > li > a:hover {
+                color: #FFFFFF; }
+        footer > div.about > div > div.fil {
+          width: 100%;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: center;
+          background-color: #15171E;
+          gap: 4%;
+          padding: 2%; }
+          footer > div.about > div > div.fil > a {
+            display: inline-block;
+            text-align: center;
+            font-size: 36px;
+            color: #6b6b6b; }
+            footer > div.about > div > div.fil > a:hover {
+              color: #FFFFFF; }
+      footer > div.about > span {
+        display: flex;
+        justify-content: center;
+        width: 90%;
+        font-size: 18px;
+        color: #6b6b6b;
+        margin: 3%;
+        background-color: #15171E; }
+        footer > div.about > span > a {
+          display: block;
+          color: #148EFF;
+          font-size: 18px;
+          text-decoration: underline; }
+          footer > div.about > span > a:hover {
+            color: #FFB400; }
+            footer > div.about > span > a:hover > i {
+              color: #FFB400; }
+          footer > div.about > span > a > i {
+            color: #148EFF;
+            font-size: 19px; }
+      footer > div.about > div.last {
+        width: 90%;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        background-color: #15171E; }
+        footer > div.about > div.last > span {
+          width: 100%;
+          font-size: 14px;
+          color: #6b6b6b; }
+          footer > div.about > div.last > span > a {
+            display: inline-block;
+            color: #9b9b9b;
+            font-size: 14px;
+            text-decoration: underline; }
+            footer > div.about > div.last > span > a:hover {
+              color: #FFFFFF; } }
+
+@media screen and (min-width: 769px) and (max-width: 942px) {
+  footer {
+    width: 100%;
+    height: auto;
+    background-color: #15171E; }
+    footer > div.adventure {
+      width: 100%;
+      height: 830px;
+      position: relative; }
+      footer > div.adventure > img {
+        width: inherit;
+        height: inherit; }
+      footer > div.adventure > div.image {
+        width: 75%;
+        height: 60%;
+        position: absolute;
+        top: 35%;
+        left: 13%; }
+        footer > div.adventure > div.image > img {
+          width: 100%;
+          height: 100%; }
+      footer > div.adventure > div.mobile {
+        width: 84%;
+        height: inherit;
+        position: absolute;
+        right: 10%;
+        top: 0;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: start;
+        row-gap: 2%; }
+        footer > div.adventure > div.mobile > h2 {
+          margin-top: 2%;
+          width: fit-content;
+          color: #FFFFFF;
+          font-size: 40px;
+          padding: 1%; }
+        footer > div.adventure > div.mobile > h6 {
+          width: fit-content;
+          color: #FFFFFF;
+          font-size: 20px;
+          padding: 1%; }
+        footer > div.adventure > div.mobile > div.tagA {
+          width: 100%;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: center;
+          padding-left: 11%;
+          gap: 5%; }
+          footer > div.adventure > div.mobile > div.tagA > a:first-child {
+            display: block;
+            width: fit-content;
+            border-radius: 6px;
+            padding: 0 10%;
+            background-color: #148EFF;
+            color: #FFFFFF;
+            line-height: 70px;
+            font-size: 25px;
+            transition: 500ms; }
+            footer > div.adventure > div.mobile > div.tagA > a:first-child:hover {
+              transition: 500ms;
+              border: 1px solid #FFFFFF; }
+          footer > div.adventure > div.mobile > div.tagA > a:last-child {
+            display: block;
+            width: fit-content;
+            border-radius: 6px;
+            padding: 0 4%;
+            background-color: #23252B;
+            color: #FFFFFF;
+            line-height: 70px;
+            font-size: 22px;
+            transition: 500ms; }
+            footer > div.adventure > div.mobile > div.tagA > a:last-child:hover {
+              transition: 500ms;
+              border: 1px solid #6b6b6b; }
+        footer > div.adventure > div.mobile > div.text {
+          width: 100%;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: center;
+          padding-left: 11%;
+          gap: 1%; }
+          footer > div.adventure > div.mobile > div.text > span {
+            width: fit-content;
+            color: #FFFFFF;
+            font-size: 17px; }
+          footer > div.adventure > div.mobile > div.text > a {
+            width: fit-content;
+            color: #148EFF;
+            text-decoration: underline;
+            font-size: 17px;
+            transition: 500ms; }
+            footer > div.adventure > div.mobile > div.text > a:hover {
+              transition: 500ms;
+              color: #FFB400; }
+    footer > div.about {
+      width: 100%;
+      height: auto;
+      padding-top: 5%;
+      padding-bottom: 8%;
+      display: flex;
+      flex-flow: column wrap;
+      background-color: #15171E;
+      align-items: center; }
+      footer > div.about > a.En {
+        background-color: #15171E;
+        display: block;
+        color: #6b6b6b;
+        width: fit-content;
+        font-size: 20px;
+        padding: 1%; }
+        footer > div.about > a.En:hover {
+          color: #FFFFFF; }
+      footer > div.about > a.logo {
+        background-color: #15171E;
+        display: block;
+        color: #FFFFFF;
+        width: auto;
+        text-align: center;
+        font-size: 30px;
+        padding: 1%; }
+        footer > div.about > a.logo > i {
+          color: #148EFF;
+          font-size: 38px; }
+        footer > div.about > a.logo > span {
+          color: #FFFFFF; }
+      footer > div.about > div {
+        width: 90%;
+        text-align: center;
+        background-color: #15171E; }
+        footer > div.about > div > ul {
+          width: 100%;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: center;
+          background-color: #15171E; }
+          footer > div.about > div > ul > li {
+            background-color: #15171E;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: center;
+            width: auto; }
+            footer > div.about > div > ul > li > span {
+              color: #6b6b6b;
+              font-weight: bolder; }
+            footer > div.about > div > ul > li > a {
+              display: inline-block;
+              text-align: center;
+              text-transform: capitalize;
+              width: fit-content;
+              font-size: 14px;
+              color: #6b6b6b;
+              padding: 10px;
+              background-color: #15171E; }
+              footer > div.about > div > ul > li > a:hover {
+                color: #FFFFFF; }
+        footer > div.about > div > div.fil {
+          width: 100%;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: center;
+          background-color: #15171E;
+          gap: 4%;
+          padding: 2%; }
+          footer > div.about > div > div.fil > a {
+            display: inline-block;
+            text-align: center;
+            font-size: 36px;
+            color: #6b6b6b; }
+            footer > div.about > div > div.fil > a:hover {
+              color: #FFFFFF; }
+      footer > div.about > span {
+        display: flex;
+        justify-content: center;
+        width: 90%;
+        font-size: 18px;
+        color: #6b6b6b;
+        margin: 3%;
+        background-color: #15171E; }
+        footer > div.about > span > a {
+          display: block;
+          color: #148EFF;
+          font-size: 18px;
+          text-decoration: underline; }
+          footer > div.about > span > a:hover {
+            color: #FFB400; }
+            footer > div.about > span > a:hover > i {
+              color: #FFB400; }
+          footer > div.about > span > a > i {
+            color: #148EFF;
+            font-size: 19px; }
+      footer > div.about > div.last {
+        width: 90%;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        background-color: #15171E; }
+        footer > div.about > div.last > span {
+          width: 100%;
+          font-size: 14px;
+          color: #6b6b6b; }
+          footer > div.about > div.last > span > a {
+            display: inline-block;
+            color: #9b9b9b;
+            font-size: 14px;
+            text-decoration: underline; }
+            footer > div.about > div.last > span > a:hover {
+              color: #FFFFFF; } }
+
+@media screen and (min-width: 581px) and (max-width: 768px) {
+  footer {
+    width: 100%;
+    height: auto;
+    background-color: #15171E; }
+    footer > div.adventure {
+      width: 100%;
+      height: 160vh;
+      position: relative; }
+      footer > div.adventure > img {
+        width: inherit;
+        height: inherit; }
+      footer > div.adventure > div.image {
+        width: 75%;
+        height: 63vh;
+        position: absolute;
+        top: 50%;
+        left: 13%; }
+        footer > div.adventure > div.image > img {
+          width: 100%;
+          height: 100%; }
+      footer > div.adventure > div.mobile {
+        width: 84%;
+        height: inherit;
+        position: absolute;
+        right: 10%;
+        top: 0;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: start;
+        row-gap: 4%; }
+        footer > div.adventure > div.mobile > h2 {
+          margin-top: 6%;
+          width: fit-content;
+          color: #FFFFFF;
+          font-size: 40px;
+          padding: 1%; }
+        footer > div.adventure > div.mobile > h6 {
+          width: fit-content;
+          color: #FFFFFF;
+          font-size: 90%;
+          padding: 1%; }
+        footer > div.adventure > div.mobile > div.tagA {
+          width: 100%;
+          display: flex;
+          flex-flow: row nowrap;
+          justify-content: center;
+          padding-left: 11%;
+          gap: 5%; }
+          footer > div.adventure > div.mobile > div.tagA > a:first-child {
+            display: block;
+            width: fit-content;
+            border-radius: 6px;
+            padding: 0 5%;
+            background-color: #148EFF;
+            color: #FFFFFF;
+            line-height: 70px;
+            font-size: 120%;
+            transition: 500ms; }
+            footer > div.adventure > div.mobile > div.tagA > a:first-child:hover {
+              transition: 500ms;
+              border: 1px solid #FFFFFF; }
+          footer > div.adventure > div.mobile > div.tagA > a:last-child {
+            display: block;
+            width: fit-content;
+            border-radius: 6px;
+            padding: 0 2%;
+            background-color: #23252B;
+            color: #FFFFFF;
+            line-height: 70px;
+            font-size: 100%;
+            transition: 500ms; }
+            footer > div.adventure > div.mobile > div.tagA > a:last-child:hover {
+              transition: 500ms;
+              border: 1px solid #6b6b6b; }
+        footer > div.adventure > div.mobile > div.text {
+          width: 100%;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: center;
+          padding-left: 11%;
+          gap: 1%; }
+          footer > div.adventure > div.mobile > div.text > span {
+            width: fit-content;
+            color: #FFFFFF;
+            font-size: 17px; }
+          footer > div.adventure > div.mobile > div.text > a {
+            width: fit-content;
+            color: #148EFF;
+            text-decoration: underline;
+            font-size: 17px;
+            transition: 500ms; }
+            footer > div.adventure > div.mobile > div.text > a:hover {
+              transition: 500ms;
+              color: #FFB400; }
+    footer > div.about {
+      width: 100%;
+      height: auto;
+      padding-top: 5%;
+      padding-bottom: 8%;
+      display: flex;
+      flex-flow: column wrap;
+      background-color: #15171E;
+      align-items: center; }
+      footer > div.about > a.En {
+        background-color: #15171E;
+        display: block;
+        color: #6b6b6b;
+        width: fit-content;
+        font-size: 20px;
+        padding: 1%; }
+        footer > div.about > a.En:hover {
+          color: #FFFFFF; }
+      footer > div.about > a.logo {
+        background-color: #15171E;
+        display: block;
+        color: #FFFFFF;
+        width: auto;
+        text-align: center;
+        font-size: 30px;
+        padding: 1%; }
+        footer > div.about > a.logo > i {
+          color: #148EFF;
+          font-size: 38px; }
+        footer > div.about > a.logo > span {
+          color: #FFFFFF; }
+      footer > div.about > div {
+        width: 90%;
+        text-align: center;
+        background-color: #15171E; }
+        footer > div.about > div > ul {
+          width: 100%;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: center;
+          background-color: #15171E; }
+          footer > div.about > div > ul > li {
+            background-color: #15171E;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: center;
+            width: auto; }
+            footer > div.about > div > ul > li > span {
+              color: #6b6b6b;
+              font-weight: bolder; }
+            footer > div.about > div > ul > li > a {
+              display: inline-block;
+              text-align: center;
+              text-transform: capitalize;
+              width: fit-content;
+              font-size: 14px;
+              color: #6b6b6b;
+              padding: 10px;
+              background-color: #15171E; }
+              footer > div.about > div > ul > li > a:hover {
+                color: #FFFFFF; }
+        footer > div.about > div > div.fil {
+          width: 100%;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: center;
+          background-color: #15171E;
+          gap: 4%;
+          padding: 2%; }
+          footer > div.about > div > div.fil > a {
+            display: inline-block;
+            text-align: center;
+            font-size: 36px;
+            color: #6b6b6b; }
+            footer > div.about > div > div.fil > a:hover {
+              color: #FFFFFF; }
+      footer > div.about > span {
+        display: flex;
+        justify-content: center;
+        width: 90%;
+        font-size: 18px;
+        color: #6b6b6b;
+        margin: 3%;
+        background-color: #15171E; }
+        footer > div.about > span > a {
+          display: block;
+          color: #148EFF;
+          font-size: 18px;
+          text-decoration: underline; }
+          footer > div.about > span > a:hover {
+            color: #FFB400; }
+            footer > div.about > span > a:hover > i {
+              color: #FFB400; }
+          footer > div.about > span > a > i {
+            color: #148EFF;
+            font-size: 19px; }
+      footer > div.about > div.last {
+        width: 90%;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        background-color: #15171E; }
+        footer > div.about > div.last > span {
+          width: 100%;
+          font-size: 14px;
+          color: #6b6b6b; }
+          footer > div.about > div.last > span > a {
+            display: inline-block;
+            color: #9b9b9b;
+            font-size: 14px;
+            text-decoration: underline; }
+            footer > div.about > div.last > span > a:hover {
+              color: #FFFFFF; } }
+
+@media screen and (max-width: 580px) {
+  footer {
+    width: 100%;
+    height: auto;
+    background-color: #15171E; }
+    footer > div.adventure {
+      width: 100%;
+      height: 160vh;
+      position: relative; }
+      footer > div.adventure > img {
+        width: inherit;
+        height: inherit; }
+      footer > div.adventure > div.image {
+        width: 75%;
+        height: 63vh;
+        position: absolute;
+        top: 50%;
+        left: 13%; }
+        footer > div.adventure > div.image > img {
+          width: 100%;
+          height: 100%; }
+      footer > div.adventure > div.mobile {
+        width: 100%;
+        height: inherit;
+        position: absolute;
+        right: 10%;
+        top: 0;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: start;
+        row-gap: 4%; }
+        footer > div.adventure > div.mobile > h2 {
+          margin-top: 6%;
+          margin-left: 13%;
+          width: fit-content;
+          color: #FFFFFF;
+          font-size: 150%;
+          padding: 1%; }
+        footer > div.adventure > div.mobile > h6 {
+          width: fit-content;
+          color: #FFFFFF;
+          font-size: 85%;
+          margin-left: 13%; }
+        footer > div.adventure > div.mobile > div.tagA {
+          width: 100%;
+          display: flex;
+          flex-flow: row nowrap;
+          justify-content: center;
+          padding-left: 11%;
+          gap: 5%; }
+          footer > div.adventure > div.mobile > div.tagA > a:first-child {
+            display: block;
+            width: fit-content;
+            border-radius: 6px;
+            padding: 0 5%;
+            background-color: #148EFF;
+            color: #FFFFFF;
+            line-height: 70px;
+            font-size: 120%;
+            transition: 500ms; }
+            footer > div.adventure > div.mobile > div.tagA > a:first-child:hover {
+              transition: 500ms;
+              border: 1px solid #FFFFFF; }
+          footer > div.adventure > div.mobile > div.tagA > a:last-child {
+            display: block;
+            width: fit-content;
+            border-radius: 6px;
+            padding: 0 2%;
+            background-color: #23252B;
+            color: #FFFFFF;
+            line-height: 70px;
+            font-size: 100%;
+            transition: 500ms; }
+            footer > div.adventure > div.mobile > div.tagA > a:last-child:hover {
+              transition: 500ms;
+              border: 1px solid #6b6b6b; }
+        footer > div.adventure > div.mobile > div.text {
+          width: 100%;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: center;
+          padding-left: 11%;
+          gap: 1%; }
+          footer > div.adventure > div.mobile > div.text > span {
+            width: fit-content;
+            color: #FFFFFF;
+            font-size: 17px; }
+          footer > div.adventure > div.mobile > div.text > a {
+            width: fit-content;
+            color: #148EFF;
+            text-decoration: underline;
+            font-size: 17px;
+            transition: 500ms; }
+            footer > div.adventure > div.mobile > div.text > a:hover {
+              transition: 500ms;
+              color: #FFB400; }
+    footer > div.about {
+      width: 100%;
+      height: auto;
+      padding-top: 5%;
+      padding-bottom: 8%;
+      display: flex;
+      flex-flow: column wrap;
+      background-color: #15171E;
+      align-items: center; }
+      footer > div.about > a.En {
+        background-color: #15171E;
+        display: block;
+        color: #6b6b6b;
+        width: fit-content;
+        font-size: 90%;
+        padding: 2%; }
+        footer > div.about > a.En:hover {
+          color: #FFFFFF; }
+      footer > div.about > a.logo {
+        background-color: #15171E;
+        display: block;
+        color: #FFFFFF;
+        width: auto;
+        text-align: center;
+        font-size: 120%;
+        padding: 3%; }
+        footer > div.about > a.logo > i {
+          color: #148EFF;
+          font-size: 100%; }
+        footer > div.about > a.logo > span {
+          color: #FFFFFF; }
+      footer > div.about > div {
+        width: 100%;
+        text-align: center;
+        background-color: #15171E; }
+        footer > div.about > div > ul {
+          width: 100%;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: center;
+          background-color: #15171E; }
+          footer > div.about > div > ul > li {
+            background-color: #15171E;
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-items: center;
+            width: auto; }
+            footer > div.about > div > ul > li > span {
+              color: #6b6b6b;
+              font-weight: bolder; }
+            footer > div.about > div > ul > li > a {
+              display: inline-block;
+              text-align: center;
+              text-transform: capitalize;
+              width: fit-content;
+              font-size: 80%;
+              color: #6b6b6b;
+              padding: 10px;
+              background-color: #15171E; }
+              footer > div.about > div > ul > li > a:hover {
+                color: #FFFFFF; }
+        footer > div.about > div > div.fil {
+          width: 100%;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: center;
+          background-color: #15171E;
+          gap: 4%;
+          padding: 2%; }
+          footer > div.about > div > div.fil > a {
+            display: inline-block;
+            text-align: center;
+            font-size: 150%;
+            color: #6b6b6b; }
+            footer > div.about > div > div.fil > a:hover {
+              color: #FFFFFF; }
+      footer > div.about > span {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        font-size: 90%;
+        color: #6b6b6b;
+        margin: 3%;
+        background-color: #15171E; }
+        footer > div.about > span > a {
+          display: block;
+          color: #148EFF;
+          font-size: 90%;
+          text-decoration: underline; }
+          footer > div.about > span > a:hover {
+            color: #FFB400; }
+            footer > div.about > span > a:hover > i {
+              color: #FFB400; }
+          footer > div.about > span > a > i {
+            color: #148EFF;
+            font-size: 90%; }
+      footer > div.about > div.last {
+        width: 100%;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        background-color: #15171E; }
+        footer > div.about > div.last > span {
+          width: 100%;
+          font-size: 80%;
+          color: #6b6b6b; }
+          footer > div.about > div.last > span > a {
+            display: inline-block;
+            color: #9b9b9b;
+            font-size: 90%;
+            text-decoration: underline; }
+            footer > div.about > div.last > span > a:hover {
+              color: #FFFFFF; } }
