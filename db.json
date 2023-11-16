@@ -1,0 +1,984 @@
+{
+  "header": [
+    {
+      "top": [
+        {
+          "logo": {
+            "id": 1,
+            "name": "BATTLE.NET",
+            "link": "https://mostafa-rashidi.github.io/battle.net/",
+            "dropdown": []
+          }
+        },
+        {
+          "login": [
+            {
+              "id": 1,
+              "name": "download Battle.net",
+              "link": "https://mostafa-rashidi.github.io/battle.net/",
+              "dropdown": []
+            },
+            {
+              "id": 2,
+              "name": "support",
+              "link": "https://mostafa-rashidi.github.io/battle.net/",
+              "dropdown": []
+            },
+            {
+              "ulaccount": [
+                {
+                  "id": 1,
+                  "name": "account",
+                  "link": "https://mostafa-rashidi.github.io/battle.net/",
+                  "dropdown": []
+                },
+                {
+                  "log3": {
+                    "id": 1,
+                    "name": "BATTLE.NET",
+                    "link": "https://mostafa-rashidi.github.io/battle.net/",
+                    "dropdown": []
+                  }
+                },
+                {
+                  "ulli": [
+                    {
+                      "lilogin": {
+                        "id": 1,
+                        "name": "log in",
+                        "link": "https://mostafa-rashidi.github.io/battle.net/",
+                        "dropdown": []
+                      }
+                    },
+                    {
+                      "id": 2,
+                      "name": "account setting",
+                      "link": "https://mostafa-rashidi.github.io/battle.net/",
+                      "dropdown": []
+                    },
+                    {
+                      "id": 3,
+                      "name": "wish list",
+                      "link": "https://mostafa-rashidi.github.io/battle.net/",
+                      "dropdown": []
+                    },
+                    {
+                      "id": 4,
+                      "name": "redeem code",
+                      "link": "https://mostafa-rashidi.github.io/battle.net/",
+                      "dropdown": []
+                    },
+                    {
+                      "id": 5,
+                      "name": "change battle tag",
+                      "link": "https://mostafa-rashidi.github.io/battle.net/",
+                      "dropdown": []
+                    },
+                    {
+                      "ulAaccount": {
+                        "id": 1,
+                        "name": "support",
+                        "dropdown": []
+                      }
+                    },
+                    {
+                      "id": 6,
+                      "name": "creat account",
+                      "link": "https://mostafa-rashidi.github.io/battle.net/",
+                      "dropdown": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "navbar": [
+    {
+      "nav": [
+        {
+          "log2": {
+            "id": 1,
+            "name": "BATTLE.NET",
+            "link": "https://mostafa-rashidi.github.io/battle.net/",
+            "dropdown": []
+          }
+        },
+        {
+          "menu": [
+            {
+              "id": 1,
+              "name": "Warcraft",
+              "link": "https://mostafa-rashidi.github.io/battle.net/",
+              "dropdown": [
+                {
+                  "id": 1,
+                  "title": "World of Warcraft",
+                  "content": "Massively Multiplayer RPG",
+                  "link": "https://mostafa-rashidi.github.io/battle.net/",
+                  "dropdown": []
+                },
+                {
+                  "id": 2,
+                  "title": "World of Warcraft",
+                  "content": "Massively Multiplayer RPG",
+                  "link": "https://mostafa-rashidi.github.io/battle.net/",
+                  "dropdown": []
+                },
+                {
+                  "id": 3,
+                  "title": "World of Warcraft",
+                  "content": "Massively Multiplayer RPG",
+                  "link": "https://mostafa-rashidi.github.io/battle.net/",
+                  "dropdown": []
+                },
+                {
+                  "id": 4,
+                  "title": "World of Warcraft",
+                  "content": "Massively Multiplayer RPG",
+                  "link": "https://mostafa-rashidi.github.io/battle.net/",
+                  "dropdown": []
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "name": "Call of Duty",
+              "link": "https://mostafa-rashidi.github.io/battle.net/",
+              "dropdown": [
+                {
+                  "id": 1,
+                  "title": "World of Warcraft",
+                  "content": "Massively Multiplayer RPG",
+                  "link": "https://mostafa-rashidi.github.io/battle.net/",
+                  "dropdown": []
+                },
+                {
+                  "id": 2,
+                  "title": "World of Warcraft",
+                  "content": "Massively Multiplayer RPG",
+                  "link": "https://mostafa-rashidi.github.io/battle.net/",
+                  "dropdown": []
+                },
+                {
+                  "id": 3,
+                  "title": "World of Warcraft",
+                  "content": "Massively Multiplayer RPG",
+                  "link": "https://mostafa-rashidi.github.io/battle.net/",
+                  "dropdown": []
+                },
+                {
+                  "id": 4,
+                  "title": "World of Warcraft",
+                  "content": "Massively Multiplayer RPG",
+                  "link": "https://mostafa-rashidi.github.io/battle.net/",
+                  "dropdown": []
+                },
+                {
+                  "id": 5,
+                  "title": "World of Warcraft",
+                  "content": "Massively Multiplayer RPG",
+                  "link": "https://mostafa-rashidi.github.io/battle.net/",
+                  "dropdown": []
+                },
+                {
+                  "id": 6,
+                  "title": "World of Warcraft",
+                  "content": "Massively Multiplayer RPG",
+                  "link": "https://mostafa-rashidi.github.io/battle.net/",
+                  "dropdown": []
+                },
+                {
+                  "id": 7,
+                  "title": "World of Warcraft",
+                  "content": "Massively Multiplayer RPG",
+                  "link": "https://mostafa-rashidi.github.io/battle.net/",
+                  "dropdown": []
+                },
+                {
+                  "id": 8,
+                  "title": "World of Warcraft",
+                  "content": "Massively Multiplayer RPG",
+                  "link": "https://mostafa-rashidi.github.io/battle.net/",
+                  "dropdown": []
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "name": "Diablo",
+              "link": "https://mostafa-rashidi.github.io/battle.net/",
+              "dropdown": [
+                {
+                  "id": 1,
+                  "title": "World of Warcraft",
+                  "content": "Massively Multiplayer RPG",
+                  "link": "https://mostafa-rashidi.github.io/battle.net/",
+                  "dropdown": []
+                },
+                {
+                  "id": 2,
+                  "title": "World of Warcraft",
+                  "content": "Massively Multiplayer RPG",
+                  "link": "https://mostafa-rashidi.github.io/battle.net/",
+                  "dropdown": []
+                },
+                {
+                  "id": 3,
+                  "title": "World of Warcraft",
+                  "content": "Massively Multiplayer RPG",
+                  "link": "https://mostafa-rashidi.github.io/battle.net/",
+                  "dropdown": []
+                },
+                {
+                  "id": 4,
+                  "title": "World of Warcraft",
+                  "content": "Massively Multiplayer RPG",
+                  "link": "https://mostafa-rashidi.github.io/battle.net/",
+                  "dropdown": []
+                }
+              ]
+            },
+            {
+              "id": 4,
+              "name": "Overwatch",
+              "link": "https://mostafa-rashidi.github.io/battle.net/",
+              "dropdown": [
+                {
+                  "id": 1,
+                  "title": "World of Warcraft",
+                  "content": "Massively Multiplayer RPG",
+                  "link": "https://mostafa-rashidi.github.io/battle.net/",
+                  "dropdown": []
+                },
+                {
+                  "id": 2,
+                  "title": "World of Warcraft",
+                  "content": "Massively Multiplayer RPG",
+                  "link": "https://mostafa-rashidi.github.io/battle.net/",
+                  "dropdown": []
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "name": "StarCraft",
+              "link": "https://mostafa-rashidi.github.io/battle.net/",
+              "dropdown": [
+                {
+                  "id": 1,
+                  "title": "World of Warcraft",
+                  "content": "Massively Multiplayer RPG",
+                  "link": "https://mostafa-rashidi.github.io/battle.net/",
+                  "dropdown": []
+                },
+                {
+                  "id": 2,
+                  "title": "World of Warcraft",
+                  "content": "Massively Multiplayer RPG",
+                  "link": "https://mostafa-rashidi.github.io/battle.net/",
+                  "dropdown": []
+                }
+              ]
+            },
+            {
+              "id": 6,
+              "name": "More",
+              "link": "https://mostafa-rashidi.github.io/battle.net/",
+              "dropdown": [
+                {
+                  "id": 1,
+                  "title": "World of Warcraft",
+                  "content": "Massively Multiplayer RPG",
+                  "link": "https://mostafa-rashidi.github.io/battle.net/",
+                  "dropdown": []
+                },
+                {
+                  "id": 2,
+                  "title": "World of Warcraft",
+                  "content": "Massively Multiplayer RPG",
+                  "link": "https://mostafa-rashidi.github.io/battle.net/",
+                  "dropdown": []
+                },
+                {
+                  "id": 3,
+                  "title": "World of Warcraft",
+                  "content": "Massively Multiplayer RPG",
+                  "link": "https://mostafa-rashidi.github.io/battle.net/",
+                  "dropdown": []
+                }
+              ]
+            },
+            {
+              "id": 7,
+              "name": "BlizzCon Collection",
+              "link": "https://mostafa-rashidi.github.io/battle.net/",
+              "dropdown": []
+            }
+          ]
+        },
+        {
+          "balance": [
+            {
+              "id": 1,
+              "name": "Battle.net Balance",
+              "link": "https://mostafa-rashidi.github.io/battle.net/",
+              "dropdown": [
+                {
+                  "id": 1,
+                  "title": "Add Balance",
+                  "link": "https://mostafa-rashidi.github.io/battle.net/",
+                  "dropdown": []
+                },
+                {
+                  "id": 2,
+                  "title": "Gift Balance",
+                  "link": "https://mostafa-rashidi.github.io/battle.net/",
+                  "dropdown": []
+                },
+                {
+                  "id": 3,
+                  "title": "Balance History",
+                  "link": "https://mostafa-rashidi.github.io/battle.net/",
+                  "dropdown": []
+                },
+                {
+                  "id": 4,
+                  "title": "Balance Help",
+                  "link": "https://mostafa-rashidi.github.io/battle.net/",
+                  "dropdown": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "slider1": [
+    {
+      "id": 1,
+      "image": "./public/images/slider/slider-1/image-1-1.png",
+      "alt": "image-1-1",
+      "title": "Unlock the adventure from anywhere! Access the BlizzCon Collection",
+      "name": "Buy now",
+      "link": "https://mostafa-rashidi.github.io/battle.net/",
+      "image1": "./public/images/slider/slider-1/image-1.jpeg",
+      "alt1": "image-1",
+      "image2": "./public/images/slider/slider-1/md-sm-xs/image-1.jpeg"
+    },
+    {
+      "id": 2,
+      "image": "./public/images/slider/slider-1/image-2-1.png",
+      "alt": "image-2-1",
+      "title": "Play the Campaign early starting on November 2",
+      "name": "Pre-purchase",
+      "link": "https://mostafa-rashidi.github.io/battle.net/",
+      "image1": "./public/images/slider/slider-1/image-2.jpg",
+      "alt1": "image-2",
+      "image2": "./public/images/slider/slider-1/md-sm-xs/image-2.jpg"
+    },
+    {
+      "id": 3,
+      "image": "./public/images/slider/slider-1/image-3-1.png",
+      "alt": "image-3-1",
+      "title": "Get 25% off Diablo IV",
+      "name": "Buy now",
+      "link": "https://mostafa-rashidi.github.io/battle.net/",
+      "image1": "./public/images/slider/slider-1/image-3.jpeg",
+      "alt1": "image-3",
+      "image2": "./public/images/slider/slider-1/md-sm-xs/image-3.jpeg"
+    },
+    {
+      "id": 4,
+      "image": "./public/images/slider/slider-1/image-4-1.png",
+      "alt": "image-4-1",
+      "title": "Season of Blood is now live",
+      "name": "Buy the Battle Pass",
+      "link": "https://mostafa-rashidi.github.io/battle.net/",
+      "image1": "./public/images/slider/slider-1/image-4.jpeg",
+      "alt1": "image-4",
+      "image2": "./public/images/slider/slider-1/md-sm-xs/image-4.jpeg"
+    },
+    {
+      "id": 5,
+      "image": "./public/images/slider/slider-1/image-5-1.png",
+      "alt": "image-5-1",
+      "title": "Get the 12-month subscription offer today",
+      "name": "Subscribe Now",
+      "link": "https://mostafa-rashidi.github.io/battle.net/",
+      "image1": "./public/images/slider/slider-1/image-5.jpeg",
+      "alt1": "image-5",
+      "image2": "./public/images/slider/slider-1/md-sm-xs/image-5.jpeg"
+    },
+    {
+      "id": 6,
+      "image": "./public/images/slider/slider-1/image-6-1.png",
+      "alt": "image-6-1",
+      "title": "Prepare for a showdown!",
+      "name": "Pre-purchase",
+      "link": "https://mostafa-rashidi.github.io/battle.net/",
+      "image1": "./public/images/slider/slider-1/image-6.jpg",
+      "alt1": "image-6",
+      "image2": "./public/images/slider/slider-1/md-sm-xs/image-6.jpg"
+    },
+    {
+      "id": 7,
+      "image": "./public/images/slider/slider-1/image-7-1.png",
+      "alt": "image-7-1",
+      "title": "Get the Season 7 Premium Battle Pass + 20 Tier Skips, 2Legendary skins and more!",
+      "name": "Buy now",
+      "link": "https://mostafa-rashidi.github.io/battle.net/",
+      "image1": "./public/images/slider/slider-1/image-7.jpeg",
+      "alt1": "image-7",
+      "image2": "./public/images/slider/slider-1/md-sm-xs/image-7.jpeg"
+    }
+  ],
+  "product": [
+    {
+      "id": 1,
+      "title": "Recommended",
+      "product1": [
+        {
+          "id": 1,
+          "image": "./public/images/product/product-1/product-1-img-1.jpeg",
+          "alt": "product-1-img-1",
+          "link": "https://mostafa-rashidi.github.io/battle.net/",
+          "name": "Diablo IV",
+          "title2": "Diablo® IV: Ultimate Edition",
+          "yellowContent": [],
+          "content": "Action RPG"
+        },
+        {
+          "id": 2,
+          "image": "./public/images/product/product-1/product-1-img-2.jpeg",
+          "alt": "product-1-img-2",
+          "link": "https://mostafa-rashidi.github.io/battle.net/",
+          "name": "BlizzCon",
+          "title2": "BlizzCon® Collection",
+          "yellowContent": [],
+          "content": "In-Game Content"
+        },
+        {
+          "id": 3,
+          "image": "./public/images/product/product-1/product-1-img-3.jpeg",
+          "alt": "product-1-img-3",
+          "link": "https://mostafa-rashidi.github.io/battle.net/",
+          "name": "Diablo IV",
+          "title2": "Premium Battle Pass - Season of Blood",
+          "yellowContent": [
+            {
+              "id": 1,
+              "contyellow": ">Get the Premium Battle pass - featuring 90 tiers of rewards!"
+            }
+          ],
+          "content": "In-Game Content"
+        },
+        {
+          "id": 4,
+          "image": "./public/images/product/product-1/product-1-img-4.jpg",
+          "alt": "product-1-img-4",
+          "link": "https://mostafa-rashidi.github.io/battle.net/",
+          "name": "World of Warcraft",
+          "title2": "World of Warcraft®: Dragonflight",
+          "yellowContent": [],
+          "content": "Massively Multiplayer RPG"
+        },
+        {
+          "id": 5,
+          "image": "./public/images/product/product-1/product-1-img-5.jpeg",
+          "alt": "product-1-img-5",
+          "link": "https://mostafa-rashidi.github.io/battle.net/",
+          "name": "Overwatch 2",
+          "title2": "Overwatch® 2 – Ultimate Battle Pass Bundle: Season Seven",
+          "yellowContent": [
+            {
+              "id": 1,
+              "contyellow": "Get the Overwatch 2: Season Seven Premium Battle Pass + 20 Tiers,Lilith Moira and Inarius Pharah Legendary Skins, 2000 OW Coins,and More!"
+            }
+          ],
+          "content": "Team-Based Action Game"
+        },
+        {
+          "id": 6,
+          "image": "./public/images/product/product-1/product-1-img-6.jpg",
+          "alt": "product-1-img-6",
+          "link": "https://mostafa-rashidi.github.io/battle.net/",
+          "name": "Call of Duty: Modern Warfare III",
+          "title2": "Call of Duty®: Modern Warfare® III - Vault Edition",
+          "yellowContent": [
+            {
+              "id": 1,
+              "contyellow": "Pre-purchase and play the Campaign up to a week early*"
+            }
+          ],
+          "content": "Action Shooter"
+        },
+        {
+          "id": 7,
+          "image": "./public/images/product/product-1/product-1-img-7.jpeg",
+          "alt": "product-1-img-7",
+          "link": "https://mostafa-rashidi.github.io/battle.net/",
+          "name": "Hearthstone",
+          "title2": "TITANS Packs",
+          "yellowContent": [],
+          "content": "Card Packs"
+        },
+        {
+          "id": 8,
+          "image": "./public/images/product/product-1/product-1-img-8.jpg",
+          "alt": "product-1-img-8",
+          "link": "https://mostafa-rashidi.github.io/battle.net/",
+          "name": "Call of Duty: Warzone",
+          "title2": "Call of Duty®: Warzone",
+          "yellowContent": [
+            {
+              "id": 1,
+              "contyellow": "Free for everyone"
+            }
+          ],
+          "content": "Free-To-Play Action Shooter"
+        }
+      ],
+      "slider2": [
+        {
+          "id": 1,
+          "image": "./public/images/slider/slider-2/slider-2-img-1.jpg",
+          "alt": "slider-2-img-1"
+        },
+        {
+          "id": 2,
+          "image": "./public/images/slider/slider-2/slider-2-img-2.png",
+          "alt": "slider-2-img-2"
+        },
+        {
+          "id": 3,
+          "image": "./public/images/slider/slider-2/slider-2-img-3.jpeg",
+          "alt": "slider-2-img-3"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Featured",
+      "product2": [
+        {
+          "id": 1,
+          "image": "./public/images/product/product-2/product-2-img-1.jpeg",
+          "alt": "product-2-img-1",
+          "link": "https://mostafa-rashidi.github.io/battle.net/",
+          "name": "BlizzCon",
+          "title2": "BlizzCon® Collection",
+          "yellowContent": [],
+          "content": "In-Game Content"
+        },
+        {
+          "id": 2,
+          "image": "./public/images/product/product-2/product-2-img-2.jpeg",
+          "alt": "product-2-img-2",
+          "link": "https://mostafa-rashidi.github.io/battle.net/",
+          "name": "Diablo IV",
+          "title2": "Diablo® IV: Ultimate Edition",
+          "yellowContent": [],
+          "content": "Action RPG"
+        },
+        {
+          "id": 3,
+          "image": "./public/images/product/product-2/product-2-img-3.jpg",
+          "alt": "product-2-img-3",
+          "link": "https://mostafa-rashidi.github.io/battle.net/",
+          "name": "Call of Duty: Modern Warfare III",
+          "title2": "Call of Duty®: Modern Warfare® III - Vault Edition",
+          "yellowContent": [
+            {
+              "id": 1,
+              "contyellow": "Pre-purchase and play the Campaign up to a week early*"
+            }
+          ],
+          "content": "Action Shooter"
+        },
+        {
+          "id": 4,
+          "image": "./public/images/product/product-2/product-2-img-4.jpeg",
+          "alt": "product-4-img-4",
+          "link": "https://mostafa-rashidi.github.io/battle.net/",
+          "name": "Overwatch 2",
+          "title2": "Overwatch® 2 – Ultimate Battle Pass Bundle: Season Seven",
+          "yellowContent": [
+            {
+              "id": 1,
+              "contyellow": "Get the Overwatch 2: Season Seven Premium Battle Pass + 20 Tiers,Lilith Moira and Inarius Pharah Legendary Skins, 2000 OW Coins,and More!"
+            }
+          ],
+          "content": "Team-Based Action Game"
+        },
+        {
+          "id": 5,
+          "image": "./public/images/product/product-2/product-2-img-5.jpeg",
+          "alt": "product-2-img-5",
+          "link": "https://mostafa-rashidi.github.io/battle.net/",
+          "name": "Diablo IV",
+          "title2": "Premium Battle Pass - Season of Blood",
+          "yellowContent": [
+            {
+              "id": 1,
+              "contyellow": "Get the Premium Battle pass - featuring 90 tiers of rewards!"
+            }
+          ],
+          "content": "In-Game Content"
+        },
+        {
+          "id": 6,
+          "image": "./public/images/product/product-2/product-2-img-6.jpg",
+          "alt": "product-2-img-6",
+          "link": "https://mostafa-rashidi.github.io/battle.net/",
+          "name": "World of Warcraft",
+          "title2": "World of Warcraft®: Dragonflight",
+          "yellowContent": [],
+          "content": "Massively Multiplayer RPG"
+        },
+        {
+          "id": 7,
+          "image": "./public/images/product/product-2/product-2-img-7.jpg",
+          "alt": "product-2-img-7",
+          "link": "https://mostafa-rashidi.github.io/battle.net/",
+          "name": "Hearthstone",
+          "title2": "Showdown in the Badlands Mega Bundle (Pre-purchase)",
+          "yellowContent": [
+            {
+              "id": 1,
+              "contyellow": "Available through November 13, 2023"
+            }
+          ],
+          "content": "Card Packs"
+        },
+        {
+          "id": 8,
+          "image": "./public/images/product/product-2/product-2-img-8.jpg",
+          "alt": "product-2-img-8",
+          "link": "https://mostafa-rashidi.github.io/battle.net/",
+          "name": "Call of Duty: Warzone",
+          "title2": "Call of Duty®: Warzone",
+          "yellowContent": [
+            {
+              "id": 1,
+              "contyellow": "Free for everyone"
+            }
+          ],
+          "content": "Free-To-Play Action Shooter"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Trending Now",
+      "product3": [
+        {
+          "id": 1,
+          "image": "./public/images/product/product-3/product-3-img-1.jpeg",
+          "alt": "product-3-img-1",
+          "link": "https://mostafa-rashidi.github.io/battle.net/",
+          "name": "BlizzCon",
+          "title2": "BlizzCon® Collection",
+          "yellowContent": [],
+          "content": "In-Game Content"
+        },
+        {
+          "id": 2,
+          "image": "./public/images/product/product-3/product-3-img-2.jpg",
+          "alt": "product-3-img-2",
+          "link": "https://mostafa-rashidi.github.io/battle.net/",
+          "name": "Call of Duty: Modern Warfare III",
+          "title2": "Call of Duty®: Modern Warfare® III",
+          "yellowContent": [
+            {
+              "id": 1,
+              "contyellow": "Pre-purchase and play the Campaign up to a week early*"
+            }
+          ],
+          "content": "Action Shooter"
+        },
+        {
+          "id": 3,
+          "image": "./public/images/product/product-3/product-3-img-3.jpg",
+          "alt": "product-3-img-3",
+          "link": "https://mostafa-rashidi.github.io/battle.net/",
+          "name": "Battle.net Services",
+          "title2": "Battle.net® Balance",
+          "yellowContent": [],
+          "content": "Game Services"
+        },
+        {
+          "id": 4,
+          "image": "./public/images/product/product-3/product-3-img-4.jpg",
+          "alt": "product-3-img-4",
+          "link": "https://mostafa-rashidi.github.io/battle.net/",
+          "name": "Call of Duty: Modern Warfare III",
+          "title2": "Call of Duty®: Modern Warfare® III - Vault Edition",
+          "yellowContent": [
+            {
+              "id": 1,
+              "contyellow": "Pre-purchase and play the Campaign up to a week early*"
+            }
+          ],
+          "content": "Action Shooter"
+        },
+        {
+          "id": 5,
+          "image": "./public/images/product/product-3/product-3-img-5.jpg",
+          "alt": "product-3-img-5",
+          "link": "https://mostafa-rashidi.github.io/battle.net/",
+          "name": "Diablo IV",
+          "title2": "Diablo® IV Platinum",
+          "yellowContent": [
+            {
+              "id": 1,
+              "contyellow": "Upgrade your Battle Pass & make shop purchases"
+            }
+          ],
+          "content": "In-Game Content"
+        },
+        {
+          "id": 6,
+          "image": "./public/images/product/product-3/product-3-img-6.jpeg",
+          "alt": "product-3-img-6",
+          "link": "https://mostafa-rashidi.github.io/battle.net/",
+          "name": "Overwatch 2",
+          "title2": "Overwatch® 2 – Overwatch Coins",
+          "yellowContent": [
+            {
+              "id": 1,
+              "contyellow": "Use Overwatch Coins to Get the Premium Battle Pass and More!"
+            }
+          ],
+          "content": "Coins and Tokens"
+        },
+        {
+          "id": 7,
+          "image": "./public/images/product/product-3/product-3-img-7.jpeg",
+          "alt": "product-3-img-7",
+          "link": "https://mostafa-rashidi.github.io/battle.net/",
+          "name": "World of Warcraft Classic",
+          "title2": "Northrend Heroic Upgrade",
+          "yellowContent": [
+            {
+              "id": 1,
+              "contyellow": "Wrath of the Lich King Classic IS INCLUDED with your WoW Subscription."
+            }
+          ],
+          "content": "Game Upgrades"
+        },
+        {
+          "id": 8,
+          "image": "./public/images/product/product-3/product-3-img-8.jpeg",
+          "alt": "product-3-img-8",
+          "link": "https://mostafa-rashidi.github.io/battle.net/",
+          "name": "Diablo IV",
+          "title2": "Diablo® IV: Ultimate Edition",
+          "yellowContent": [],
+          "content": "Action RPG"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Most Gifted",
+      "product4": [
+        {
+          "id": 1,
+          "image": "./public/images/product/product-4/product-4-img-1.jpg",
+          "alt": "product-4-img-1",
+          "link": "https://mostafa-rashidi.github.io/battle.net/",
+          "name": "Battle.net Services",
+          "title2": "Battle.net® Balance",
+          "yellowContent": [],
+          "content": "Game Services"
+        },
+        {
+          "id": 2,
+          "image": "./public/images/product/product-4/product-4-img-2.jpg",
+          "alt": "product-4-img-2",
+          "link": "https://mostafa-rashidi.github.io/battle.net/",
+          "name": "Call of Duty: Modern Warfare III",
+          "title2": "Call of Duty®: Modern Warfare® III ",
+          "yellowContent": [
+            {
+              "id": 1,
+              "contyellow": "Pre-purchase and play the Campaign up to a week early*"
+            }
+          ],
+          "content": "Action Shooter"
+        },
+        {
+          "id": 3,
+          "image": "./public/images/product/product-4/product-4-img-3.jpeg",
+          "alt": "product-4-img-3",
+          "link": "https://mostafa-rashidi.github.io/battle.net/",
+          "name": "World of Warcraft",
+          "title2": "60 Days of Game Time",
+          "yellowContent": [
+            {
+              "id": 1,
+              "contyellow": "Includes access to World of Warcraft, Wrath of the Lich King Classic, and Classic Hardcore Realms!"
+            }
+          ],
+          "content": "Game Services"
+        },
+        {
+          "id": 4,
+          "image": "./public/images/product/product-4/product-4-img-4.jpeg",
+          "alt": "product-4-img-4",
+          "link": "https://mostafa-rashidi.github.io/battle.net/",
+          "name": "Overwatch 2",
+          "title2": "Overwatch® 2 – Overwatch Coins",
+          "yellowContent": [
+            {
+              "id": 1,
+              "contyellow": "Use Overwatch Coins to Get the Premium Battle Pass and More!"
+            }
+          ],
+          "content": "Coins and Tokens"
+        },
+        {
+          "id": 5,
+          "image": "./public/images/product/product-4/product-4-img-5.jpg",
+          "alt": "product-4-img-5",
+          "link": "https://mostafa-rashidi.github.io/battle.net/",
+          "name": "Call of Duty: Modern Warfare III",
+          "title2": "Call of Duty®: Modern Warfare® III - Vault Edition",
+          "yellowContent": [
+            {
+              "id": 1,
+              "contyellow": "Pre-purchase and play the Campaign up to a week early*"
+            }
+          ],
+          "content": "Action Shooter"
+        },
+        {
+          "id": 6,
+          "image": "./public/images/product/product-4/product-4-img-6.jpeg",
+          "alt": "product-4-img-6",
+          "link": "https://mostafa-rashidi.github.io/battle.net/",
+          "name": "World of Warcraft ",
+          "title2": "Call of Duty®: Warzone",
+          "yellowContent": [
+            {
+              "id": 1,
+              "contyellow": "Available for a limited time! Leaves the Shop indefinitely on October 31, 2023."
+            }
+          ],
+          "content": "pets"
+        },
+        {
+          "id": 7,
+          "image": "./public/images/product/product-4/product-4-img-7.jpeg",
+          "alt": "product-4-img-7",
+          "link": "https://mostafa-rashidi.github.io/battle.net/",
+          "name": "Diablo IV",
+          "title2": "Diablo® IV: Ultimate Edition",
+          "yellowContent": [],
+          "content": "Action RPG"
+        },
+        {
+          "id": 8,
+          "image": "./public/images/product/product-4/product-4-img-8.jpeg",
+          "alt": "product-4-img-8",
+          "link": "https://mostafa-rashidi.github.io/battle.net/",
+          "name": "BlizzCon",
+          "title2": "BlizzCon® Collection",
+          "yellowContent": [
+            {
+              "id": 1,
+              "contyellow": "Free for everyone"
+            }
+          ],
+          "content": "In-Game Content"
+        }
+      ]
+    }
+  ],
+  "footer": [
+    {
+      "id": 1,
+      "adventuer": [
+        {
+          "image1": "./public/images/footer/mobile.png",
+          "alt1": "mobile",
+          "image2": "./public/images/footer/laptop-optimized.png",
+          "alt2": "laptop-optimized",
+          "mobile": [
+            {
+              "title1": "Dive into adventure",
+              "title2": "Download Battle.net and join a community of millions.",
+              "tagA1": "Download for Windows",
+              "link": "https://mostafa-rashidi.github.io/battle.net/",
+              "tagA2": "Learn More",
+              "text": {
+                "span1": "Also available for",
+                "name1": "mac",
+                "span2": "and",
+                "name2": "Mobile",
+                "link": "https://mostafa-rashidi.github.io/battle.net/"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "about": [
+        {
+          "name1": "Enghlish(US)",
+          "name2": "BATTLE.NET",
+          "link": "https://mostafa-rashidi.github.io/battle.net/",
+          "ulli": {
+            "name1": "CAREERS",
+            "link1": "https://mostafa-rashidi.github.io/battle.net/",
+            "name2": "ABOUT",
+            "link2": "https://mostafa-rashidi.github.io/battle.net/",
+            "name3": "SUPPORT",
+            "link3": "https://mostafa-rashidi.github.io/battle.net/",
+            "name4": "CONTACT US",
+            "link4": "https://mostafa-rashidi.github.io/battle.net/",
+            "name5": "PRESS",
+            "link5": "https://mostafa-rashidi.github.io/battle.net/",
+            "name6": "API",
+            "link6": "https://mostafa-rashidi.github.io/battle.net/"
+          },
+          "fill": {
+            "link1": "https://mostafa-rashidi.github.io/battle.net/",
+            "link2": "https://mostafa-rashidi.github.io/battle.net/",
+            "link3": "https://mostafa-rashidi.github.io/battle.net/"
+          },
+          "content1": "All games, one app:",
+          "content2": "Battle.net Desktop App",
+          "last": [
+            {
+              "title": "©2023 Blizzard Entertainment, Inc.",
+              "span1": "All",
+              "name": "trademarks",
+              "link": "https://mostafa-rashidi.github.io/battle.net/",
+              "span2": " referenced herein are the properties of their respective owners.",
+              "ulli": {
+                "name1": "PRIVACY",
+                "link1": "https://mostafa-rashidi.github.io/battle.net/",
+                "name2": "LEGAL",
+                "link2": "https://mostafa-rashidi.github.io/battle.net/",
+                "name3": "TERMS",
+                "link3": "https://mostafa-rashidi.github.io/battle.net/",
+                "name4": "COOKIE POLICY",
+                "link4": "https://mostafa-rashidi.github.io/battle.net/",
+                "name5": "COOKIE SETTINGS",
+                "link5": "https://mostafa-rashidi.github.io/battle.net/"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
